@@ -8,7 +8,14 @@
 </head>
 <body>
 
+    <!-- hier komt de navigatie -->
     
-    
+
+    <div class="container">
+        lstataskjv
+        ksaknv
+        skajvn
+    </div>
+
 </body>
 </html>
