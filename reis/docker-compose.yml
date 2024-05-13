@@ -1,12 +1,12 @@
 version: '3.1'
-# update voor inclusie PDO
+
 services:
   web:
+    image: php:8.0-apache
+    container_name: php_web
     build:
       context: .
       dockerfile: Dockerfile-php
-    image: php:8.0-apache
-    container_name: php_web
     restart: always
     ports:
       - "8000:80"
