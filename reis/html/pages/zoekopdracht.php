@@ -7,15 +7,9 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-    <!-- hier komt de navigatie -->
-    
-
-    <div class="container">
-        lstataskjv
-        ksaknv
-        skajvn
-    </div>
+<?php
+    include "../include/nav.php";
+?>    
 
 </body>
 </html>
