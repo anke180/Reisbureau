@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.but1{
+    height: 50px;
+    width: 80px;
+    background-color: #2D334A;
+    border-radius: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    align-items: center;
+}
+.b1{
+    height: 200px;
+    width: 100%;
+    background-image: url(/images/Screenshot_1.jpg);
+    background-repeat: no-repeat;
+}
