@@ -20,8 +20,10 @@
             <div class="inf1">
                 <!-- Form voor de filter optie -->
             </div>
-            <div class="none"></div>
+            <div class="none">
+            </div>
         </div>
+        <div class="b2"></div>
     </div>
 </body>
 </html>
