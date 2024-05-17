@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Reisbureau</title>
 </head>
 <body>
@@ -17,7 +17,10 @@
             <a href="" class="but1">Login</a>
         </div>
         <div class="b1">
-            
+            <div class="inf1">
+                <!-- Form voor de filter optie -->
+            </div>
+            <div class="none"></div>
         </div>
     </div>
 </body>
