@@ -11,26 +11,26 @@
 
     <?php
         include "../include/nav.php";
+        include "../include/conn.php";
     ?>    
     <div class="container">
         <div class="container-row">
             <div class="achtergrond">   </div>
-            <!-- <a div="achtergrond"><img src="../img/achtergrond.jpeg"></a> -->
         </div>
 
        
         <!-- filter begint hier -->
-        <!--  informatie via database -->
         <div class="col30">
-            <div class="filter-lijst">hoi</div>
-            <div class="filter-lijst">hoi</div>
-            <div class="filter-lijst">hoi</div>
-            <div class="filter-lijst">hoi</div>
-            <div class="filter-lijst">hoi</div>
-            <div class="filter-lijst">hoi</div>
-            <div class="filter-lijst">hoi</div>
-            <div class="filter-lijst">hoi</div>
-            <div class="filter-lijst">hoi</div>
+            <!-- hier komt de filter in te staan -->
+            <div class="filter-lijst">filter</div>
+            <div class="filter-lijst">filter</div>
+            <div class="filter-lijst">filter</div>
+            <div class="filter-lijst">filter</div>
+            <div class="filter-lijst">filter</div>
+            <div class="filter-lijst">filter</div>
+            <div class="filter-lijst">filter</div>
+            <div class="filter-lijst">filter</div>
+            <div class="filter-lijst">filter</div>
         </div>
 
         <!-- vakantie info kort begint hier -->
@@ -52,13 +52,9 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
    
-
-    
-
-
 
   <!-- <h1 id='titel'>hoi hoi</h1>
 
