@@ -21,9 +21,29 @@
                 <!-- Form voor de filter optie -->
             </div>
             <div class="none">
+                
             </div>
         </div>
-        <div class="b2"></div>
+        
+    </div>
+    <div class="main">
+        <div class="b2">
+            <div class="inf2">
+                <h2>Waarom kies je voor .....?</h2>
+                <div class="inf"></div>
+                <div class="inf"></div>
+                <div class="inf"></div>
+                <div class="inf"></div>
+            </div>
+            <div class="inf3">
+                <div class="inf4"></div>
+                <div class="inf4"></div>
+                <div class="inf4"></div>
+                <div class="inf4"></div>
+                <div class="inf4"></div>
+                <div class="inf4"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
