@@ -10,13 +10,13 @@
         </div>
         
             <a href="../index.php" class="but1">Home</a>
-            <a href="locations.php" class="but1">Bestemming</a>
-            <a href="service.php" class="but1">Klantenservice</a>
-            <a href="login.php" class="but1">Login</a>
+            <a href="pages/zoekopdracht.php" class="but1">Bestemming</a>
+            <a href="pages/klantenservice.php" class="but1">Klantenservice</a>
+            <a href="pages/login.php" class="but1">Login</a>
     </div>
 
 
             
         
       
-    </div>
+    </div>  
