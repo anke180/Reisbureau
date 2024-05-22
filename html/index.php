@@ -11,7 +11,7 @@
     <div class="head">
         <div class="header">
             <div class="logo"></div>
-            <a href="" class="but1">Home</a>
+            <a href="index.php" class="but1">Home</a>
             <a href="" class="but1">Bestemming</a>
             <a href="" class="but1">Klantenservice</a>
             <a href="" class="but1">Login</a>
@@ -21,9 +21,12 @@
                 <!-- Form voor de filter optie -->
             </div>
             <div class="none">
+
             </div>
         </div>
-        <div class="b2"></div>
+        <div class="b2">
+            
+        </div>
     </div>
 </body>
 </html>
