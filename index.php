@@ -14,7 +14,7 @@
             <a href="index.php" class="but1">Home</a>
             <a href="" class="but1">Bestemming</a>
             <a href="" class="but1">Klantenservice</a>
-            <a href="" class="but1">Login</a>
+            <a href="pages/login.php" class="but1">Login</a>
         </div>
         <div class="b1">
             <div class="inf1">
