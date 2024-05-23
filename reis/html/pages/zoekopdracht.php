@@ -18,6 +18,10 @@
             <div class="achtergrond">   </div>
         </div>
 
+ 
+        <?php
+            
+        ?> 
        
         <!-- filter begint hier -->
         <div class="col30">
@@ -40,18 +44,58 @@
                 <div class="row70">
                     <div class="vakantie-balk">
                         <div class="vakantie-blok-wit">
-                            <!-- hier komt een foto -->
+                          
                         </div>
                         <div class="vakantie-blok-blauw">
+                            <?php
+                                 $stmt = $connection->query("SELECT * FROM verblijven  WHERE id=1 ");
+                                 while ($row = $stmt->fetch()){ 
+                                    
+                                  
+
+
+                                                                    echo "<div class='een-vakantie-informatie'>";
+                                                                        echo "<div class='balk-verblijven'>";
+                                                                            echo $row ['naam']."<br>\n"; 
+                                                                        echo "</div>";
+                                                                        echo "<div class='balk-beordeling'>";
+                                                                            echo $row ['beoordeling']."<br>\n"; 
+                                                                        echo "</div>";
+                                                                        echo "<div class='balk-verblijven'>";
+                                                                            echo $row ['informatie']."<br>\n"; 
+                                                                        echo "</div>";
+                                                                    echo "</div>";
+
+                                                                    echo "</div>"; 
+
+                                            
+                                 }
+                            ?>
                             <!-- hier komt de naam hotel + beooordeling hotel + informatie vakantieplek -->
-                        </div>
+
+                        <!-- </div>
                         <div class="vakantie-blok-blauw">
-                            <!-- hier komt een stuk tekst over vlucht? + prijs en button voor bekijk vakatie -->
+                            <div class="een-vlucht-informatie">
+                                <div class="balk-tekst-vlucht">
+                                    <a class="tekst-vlucht">heir komt een stuk tekst over de vlucht te staan</a>
+                                </div>
+                                <div class="balk-bekijk-vakantie">
+                                    <div class="bekijk-vakantie">
+                                        <a class="tekst-bekijk-vakantie">Bekijk vakantie</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
+
+
+
+                        
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
    

@@ -44,7 +44,7 @@ body{
 /* einde nav */
 
 /* hier begint zoekopdracht */
-
+/* gemaakt door Ruveyda */
 .container{
     height: auto;
     width: auto;
@@ -108,24 +108,117 @@ body{
 
 .vakantie-balk{
     height: 300px;
-    width: 90%;
+    width: 900px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    row-gap: 15px;
     align-items: center;
     justify-content: space-around;
     background-color: #FFD803;
 }
 
 .vakantie-blok-wit{
-    height: 80%;
-    width: 30%;
+    height: 240px;
+    width: 260px;
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
 }
 
 .vakantie-blok-blauw{
-    height: 80%;
-    width: 30%;
+    height: 240px;
+    width: 260px;
+    background-color: #E3F6F5;
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.een-vakantie-informatie{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     background-color: #E3F6F5;
 }
 
+.balk-verblijven{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3F6F5;
+}
+
+.balk-beordeling{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #E3F6F5;
+}
+
+.een-vlucht-informatie{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-color: #E3F6F5;
+}
+
+.balk-tekst-vlucht{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #E3F6F5;
+}
+
+.tekst-vlucht{
+    height: 90%;
+    width: 90%;
+    font-size: medium;
+    color: #2D334A;
+}
+
+.balk-bekijk-vakantie{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3F6F5;
+}
+
+.bekijk-vakantie{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.tekst-bekijk-vakantie{
+    font-size: medium;
+    color: #FFFFFF;
+}
 /* einde zoekopdracht */
