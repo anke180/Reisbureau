@@ -23,7 +23,7 @@
                             <a class="login-tekst">Login</a>
                             <div class="email">
                                 <label class="tekst-colour">Email: </label>
-                                <input class="background" type="text" name="username" placeholder="Username" required>
+                                <input class="background" type="text" name="email" placeholder="Email" required>
                             </div>
                             <div class="password">
                                 <label class="tekst-colour">Password: </label>

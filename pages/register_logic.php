@@ -7,8 +7,8 @@
         exit();
     }
 
-    $password = $_POST["password"];
     $email = $_POST['email'];
+    $password = $_POST["password"];
     $rol = 2;
 
 

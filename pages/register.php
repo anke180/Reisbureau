@@ -17,21 +17,21 @@
         </div>
         <div class="b1">
             <div class="blok-inlog">
-                <form action='login_logic.php' name='login_logic' method='POST' >
+                <form action='register_logic.php' name='register_logic' method='POST' >
                     <div class="login-form">
                         <div class="login-blok">
-                            <a class="login-tekst">Login</a>
+                            <a class="hoofd-tekst">Register</a>
                             <div class="email">
                                 <label class="tekst-colour">Email: </label>
-                                <input class="background" type="text" name="username" placeholder="Username" required>
+                                <input class="background" type="text" name="email" placeholder="Email" required>
                             </div>
                             <div class="password">
                                 <label class="tekst-colour">Password: </label>
                                 <input class="background" type="password" name="password" placeholder="Password" required>
                             </div>
-                            <div class="login-signin">
-                                <div class="login2">
-                                    <input class="background2 tekst-colour" type="submit" value="Login">
+                            <div class="signin-blok">
+                                <div class="signin-button">
+                                    <input class="background tekst-colour" type="submit" value="Sign in">
                                 </div>
                             </div>
                         </div>

@@ -64,6 +64,16 @@ body{
     background-color: black;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* login pagina */
 /* gemaakt door anke */
 .login-form {
@@ -90,7 +100,7 @@ body{
     margin-bottom: 30px;
 }
 
-.login-tekst {
+.hoofd-tekst {
     font-size: 40px;
 }
 
@@ -105,7 +115,6 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 50px;
     padding: 20px;
     margin: 20px;
 }
@@ -123,7 +132,6 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 50px;
     padding: 20px;
     margin: 20px;
 }
@@ -140,7 +148,6 @@ body{
     width: 200px;
     height: 60px;
     background-color: #272343;
-    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,9 +158,20 @@ body{
     width: 200px;
     height: 60px;
     background-color: #272343;
-    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
+}
+
+/* register pagina */
+/* gemaakt door anke */
+.signin-button {
+    width: 200px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
 }
