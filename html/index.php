@@ -11,6 +11,7 @@
     <div class="head">
         <div class="header">
             <div class="logo"></div>
+            <a href="" class="but1">LOGO</a>
             <a href="" class="but1">Home</a>
             <a href="" class="but1">Bestemming</a>
             <a href="" class="but1">Klantenservice</a>
