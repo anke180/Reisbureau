@@ -51,6 +51,10 @@ body{
     height: 100px;
     width: 80%;
     background-color: grey;
+    padding: 10px;
+}
+#text{
+    height: 0;
 }
 .inf1{
     height: 500px;
@@ -69,8 +73,19 @@ body{
     font-family: "Inter", sans-serif;
     margin-bottom: 20px;
 }
+.b3{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(138, 20, 20, 0.699);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+}
 .inf2{
-    height: 460px;
+    height: 550px;
     width: 30%;
     background-color: #ffffff;
     border-style: solid;
