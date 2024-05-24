@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px 0px 100px;
+}
+.but1{
+    height: 50px;
+    padding: 10px;
+    background-color: #2D334A;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+.b1{
+    height: 700px;
+    width: 100%;
+    background-image: url(/images/pexels-photo-457882.jpeg);
+    background-size: 1536px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 800px;
+}
+.none{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.inf1{
+    height: 300px;
+    width: 200px;
+    background-color: #272343;
+}
+.b2{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* login pagina */
+/* gemaakt door anke */
+.login-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.login-blok {
+    width: 560px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FFD803; */
+    background-color: rgba(255, 225, 0, 0.807);
+    /* opacity: 0.8;
+    display: none; */
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.hoofd-tekst {
+    font-size: 40px;
+}
+
+.tekst-colour {
+    color: #FFFFFF;
+}
+
+.email {
+    width: 500px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.background {
+    background-color: #272343;
+    color: #FFFFFF;
+    border: none;
+}
+
+.password {
+    width: 500px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.login-signin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.signin {
+    width: 200px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.login2 {
+    width: 200px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* register pagina */
+/* gemaakt door anke */
+.signin-button {
+    width: 200px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+}
