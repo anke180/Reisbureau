@@ -91,10 +91,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #FFD803; */
     background-color: rgba(255, 225, 0, 0.807);
-    /* opacity: 0.8;
-    display: none; */
     margin-left: 400px;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -166,6 +163,30 @@ body{
 
 /* register pagina */
 /* gemaakt door anke */
+.register-blok {
+    width: 560px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 225, 0, 0.807);
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.telefoonnummer {
+    width: 500px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
 .signin-button {
     width: 200px;
     height: 60px;

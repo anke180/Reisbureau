@@ -19,11 +19,15 @@
             <div class="blok-inlog">
                 <form action='register_logic.php' name='register_logic' method='POST' >
                     <div class="login-form">
-                        <div class="login-blok">
+                        <div class="register-blok">
                             <a class="hoofd-tekst">Register</a>
                             <div class="email">
                                 <label class="tekst-colour">Email: </label>
                                 <input class="background" type="text" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="telefoonnummer">
+                                <label class="tekst-colour">Tel: </label>
+                                <input class="background" type="number" name="tel" placeholder="Telefoonnummer" required>
                             </div>
                             <div class="password">
                                 <label class="tekst-colour">Password: </label>

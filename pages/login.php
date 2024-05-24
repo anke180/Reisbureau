@@ -20,7 +20,7 @@
                 <form action='login_logic.php' name='login_logic' method='POST' >
                     <div class="login-form">
                         <div class="login-blok">
-                            <a class="login-tekst">Login</a>
+                            <a class="hoofd-tekst">Login</a>
                             <div class="email">
                                 <label class="tekst-colour">Email: </label>
                                 <input class="background" type="text" name="email" placeholder="Email" required>
@@ -31,7 +31,7 @@
                             </div>
                             <div class="login-signin">
                                 <div class="signin">
-                                    <a href="register.php" class="signin-tekst">Sign in</a>
+                                    <a href="register.php" class="signin-tekst">Register</a>
                                 </div>
                                 <div class="login2">
                                     <input class="background tekst-colour" type="submit" value="Login">
