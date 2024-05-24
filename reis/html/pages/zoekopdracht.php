@@ -17,11 +17,6 @@
         <div class="container-row">
             <div class="achtergrond">   </div>
         </div>
-
- 
-        <?php
-            
-        ?> 
        
         <!-- filter begint hier -->
         <div class="col30">
@@ -39,64 +34,91 @@
 
         <!-- vakantie info kort begint hier -->
         <!-- informatie via database -->
-        <div class="container-col">
-            <div class="container-row">
-                <div class="row70">
-                    <div class="vakantie-balk">
-                        <div class="vakantie-blok-wit">
-                          
-                        </div>
-                        <div class="vakantie-blok-blauw">
-                            <?php
-                                 $stmt = $connection->query("SELECT * FROM verblijven  WHERE id=1 ");
-                                 while ($row = $stmt->fetch()){ 
+        
+        <?php
+             $stmt = $connection->query("SELECT * FROM verblijven  ");
+            while ($row = $stmt->fetch()){ 
+
+                echo "<div class='container-col'>";
+                    echo "<div class='container-row'>";
+                        echo "<div class='row70'>";
+                            echo "<div class='vakantie-balk'>";
+                                echo "<div class='vakantie-blok-wit'>";
+                                                // hier komt een foto    
+                                echo "</div>";
+
+                                echo "<div class='vakantie-blok-blauw'>";
+                                    echo "<div class='een-vakantie-informatie'>";
+                                        echo "<div class='balk-verblijven'>";
+                                            echo $row ['naam']."<br>\n"; 
+                                        echo "</div>";
+
+                                        echo "<div class='balk-beordeling'>";
+                                            echo $row ['beoordeling']."<br>\n"; 
+                                        echo "</div>";
+
+                                        echo "<div class='balk-verblijven'>";
+                                            echo $row ['informatie']."<br>\n"; 
+                                        echo "</div>";
+                                    echo "</div>";
+
+                                echo "</div>"; 
+
+                                echo "<div class='vakantie-blok-blauw'>";
+                                    echo "<div class='een-vlucht-informatie'>";
+                                        echo "<div class='balk-tekst-vlucht'>";
+                                            echo "<a class='tekst-vlucht'>hier komt een stuk tekst over de vlucht te staan</a>";
+                                        echo "</div>";
                                     
-                                  
+                                        echo "<div class='balk-bekijk-vakantie'>";
+                                            echo "<div class='bekijk-vakantie'>";
+                                                echo "<a class='tekst-bekijk-vakantie'>Bekijk vakantie</a>";
+                                            echo "</div>";
 
+                                        echo "</div>";
+                                    echo "</div>";
+                                echo "</div>";
+                            echo "</div>";
+                           
+                        echo "</div>";
+                    echo "</div>";
+                echo "</div>";
+         
 
-                                                                    echo "<div class='een-vakantie-informatie'>";
-                                                                        echo "<div class='balk-verblijven'>";
-                                                                            echo $row ['naam']."<br>\n"; 
-                                                                        echo "</div>";
-                                                                        echo "<div class='balk-beordeling'>";
-                                                                            echo $row ['beoordeling']."<br>\n"; 
-                                                                        echo "</div>";
-                                                                        echo "<div class='balk-verblijven'>";
-                                                                            echo $row ['informatie']."<br>\n"; 
-                                                                        echo "</div>";
-                                                                    echo "</div>";
-
-                                                                    echo "</div>"; 
-
-                                            
                                  }
                             ?>
                             <!-- hier komt de naam hotel + beooordeling hotel + informatie vakantieplek -->
 
-                        <!-- </div>
-                        <div class="vakantie-blok-blauw">
+                        
+
+                        <!-- <div class="vakantie-blok-blauw">
                             <div class="een-vlucht-informatie">
+
                                 <div class="balk-tekst-vlucht">
+
                                     <a class="tekst-vlucht">heir komt een stuk tekst over de vlucht te staan</a>
                                 </div>
-                                <div class="balk-bekijk-vakantie">
-                                    <div class="bekijk-vakantie">
-                                        <a class="tekst-bekijk-vakantie">Bekijk vakantie</a>
 
+                                <div class="balk-bekijk-vakantie">
+
+                                    <div class="bekijk-vakantie">
+
+                                        <a class="tekst-bekijk-vakantie">Bekijk vakantie</a>
                                     </div>
+
                                 </div>
                             </div>
-
-                        </div>
+                                
+                        </div> -->
 
 
 
                         
-                    </div>
-                </div>
-            </div>
-        </div> -->
+                    
 
+           
+
+        
     </div>
    
 
