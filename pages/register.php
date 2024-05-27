@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../css/index.css">
     <title>Reisbureau</title>
 </head>
 <body>
-    <div class="head">
-        <div class="header">
-            <div class="logo"></div>
-            <a href="../index.php" class="but1">Home</a>
-            <a href="" class="but1">Bestemming</a>
-            <a href="" class="but1">Klantenservice</a>
-            <a href="login.php" class="but1">Login</a>
-        </div>
+        <?php
+            include "../include/nav.php";
+        ?>
         <div class="b1">
             <div class="blok-inlog">
+
                 <form action='register_logic.php' name='register_logic' method='POST' >
                     <div class="login-form">
                         <div class="register-blok">
@@ -41,8 +37,8 @@
                         </div>
                     </div>
                 </form>
+
             </div>
         </div>
-    </div>
 </body>
 </html>
