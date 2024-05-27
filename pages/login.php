@@ -11,7 +11,7 @@
         include "../include/nav.php";
     ?>
         <div class="background-picture">
-            <!-- <div class="blok-inlog">
+            <div class="blok-inlog">
                 <form action='login_logic.php' name='login_logic' method='POST' >
                     <div class="login-form">
                         <div class="login-blok">
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </form>
-            </div> -->
+            </div>
         </div> 
 </body>
 </html>

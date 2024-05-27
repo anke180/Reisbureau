@@ -229,15 +229,14 @@ body{
 /* login pagina */
 /* gemaakt door anke */
 .background-picture {
-    height: 1000px;
+    height: 670px;
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url("../images/pexels-photo-457882.jpeg"); 
+    background-image: url("../images/b51hm1au1uy21.jpg"); 
 }
 
 
 .login-form {
-    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -325,15 +324,15 @@ body{
 /* register pagina */
 /* gemaakt door anke */
 .register-blok {
-    width: 560px;
+    width: 570px;
     height: 475px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 225, 0, 0.807);
-    margin-left: 400px;
-    margin-top: 50px;
+    margin-left: 220px;
+    margin-top: 110px;
     margin-bottom: 30px;
 }
 
@@ -361,18 +360,18 @@ body{
 
 /* dit is voor de main.jsx */
 /* dit is gemaakt door anke */
-.info {
+/* .info {
 
     top: 0;
     right: 0;
-}
+} */
 
-.danger {
+/* .danger {
 
-}
+} */
 
-.succes {
+/* .succes {
 
-}
+} */
 
 /* hoe maak je dit ook als weer op? */

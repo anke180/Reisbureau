@@ -10,9 +10,8 @@
         <?php
             include "../include/nav.php";
         ?>
-        <div class="b1">
+        <div class="background-picture">
             <div class="blok-inlog">
-
                 <form action='register_logic.php' name='register_logic' method='POST' >
                     <div class="login-form">
                         <div class="register-blok">
@@ -37,7 +36,6 @@
                         </div>
                     </div>
                 </form>
-
             </div>
         </div>
 </body>
