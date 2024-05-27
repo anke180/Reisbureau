@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
 
@@ -87,47 +87,7 @@
 
                                  }
                             ?>
-                            <!-- hier komt de naam hotel + beooordeling hotel + informatie vakantieplek -->
-
-                        
-
-                        <!-- <div class="vakantie-blok-blauw">
-                            <div class="een-vlucht-informatie">
-
-                                <div class="balk-tekst-vlucht">
-
-                                    <a class="tekst-vlucht">heir komt een stuk tekst over de vlucht te staan</a>
-                                </div>
-
-                                <div class="balk-bekijk-vakantie">
-
-                                    <div class="bekijk-vakantie">
-
-                                        <a class="tekst-bekijk-vakantie">Bekijk vakantie</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                                
-                        </div> -->
-
-
-
-                        
-                    
-
-           
-
-        
     </div>
-   
-
-  <!-- <h1 id='titel'>hoi hoi</h1>
-
-    <button onclick='waarschuwing()'>klik hier</button>
-
-
-    <script src="../js/main.jsx"></script> -->
 
 </body>
 </html>

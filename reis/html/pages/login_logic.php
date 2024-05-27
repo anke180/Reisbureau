@@ -21,11 +21,4 @@
     } else {
         header("Location: index.php");
     }
-
-    // if (!$email) {
-    //     header("Location: login.php");
-    // } else {
-    //     $_SESSION["email"] = $email;
-    //     header("Location: dashboard.php");
-    // }
 ?>

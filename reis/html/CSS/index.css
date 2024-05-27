@@ -223,3 +223,146 @@ body{
     color: #FFFFFF;
 }
 /* einde zoekopdracht */
+
+/* login pagina */
+/* gemaakt door anke */
+.login-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.login-blok {
+    width: 560px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 225, 0, 0.807);
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.hoofd-tekst {
+    font-size: 40px;
+}
+
+.tekst-colour {
+    color: #FFFFFF;
+}
+
+.email {
+    width: 500px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.background {
+    background-color: #272343;
+    color: #FFFFFF;
+    border: none;
+}
+
+.password {
+    width: 500px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.login-signin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.signin {
+    width: 200px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.login2 {
+    width: 200px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+/* einde inlog */
+
+/* register pagina */
+/* gemaakt door anke */
+.register-blok {
+    width: 560px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 225, 0, 0.807);
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.telefoonnummer {
+    width: 500px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.signin-button {
+    width: 200px;
+    height: 60px;
+    background-color: #272343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+}
+/* einde register */
+
+/* dit is voor de main.jsx */
+/* dit is gemaakt door anke */
+.info {
+
+    top: 0;
+    right: 0;
+}
+
+.danger {
+
+}
+
+.succes {
+
+}
+
+/* hoe maak je dit ook als weer op? */
