@@ -14,18 +14,11 @@
     $stmt = $connection->prepare("SELECT * FROM users WHERE email=:email AND password=:pass");
     $stmt->execute(['email' => $email, 'pass' => $password]);
     $user = $stmt->fetch();
+    // var_dump($user);
 
-
-    if(rol == 1){
+    if($user["rol"] == 1){
         header("Location: dashboard_beheer.php");
     } else {
         header("Location: index.php");
     }
-
-    // if (!$email) {
-    //     header("Location: login.php");
-    // } else {
-    //     $_SESSION["email"] = $email;
-    //     header("Location: dashboard.php");
-    // }
 ?>

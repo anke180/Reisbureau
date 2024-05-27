@@ -9,3 +9,18 @@ const waarschuwing = () => {
     titelnew.textContent = 'Pas op, je hebt de titel veranderd!';
     console.log(titel.textContent);
 }
+
+
+const popUpNotification = (message, prio) => {
+    const notification = document.createElement('div');
+    const titel = document.createElement('h2');
+    notification.classList.add('notificaion');
+    notification.classList.add(prio);
+    titel.innerHTML = message;
+    notification.appendChild(titel);
+    document.body.appendChild(notification);
+}
+
+const voorbeeldAanroep = () => {
+    popUpNotification('This is a notification', 'info');
+}

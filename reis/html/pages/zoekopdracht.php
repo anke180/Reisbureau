@@ -89,14 +89,6 @@
         ?>
         
     </div>
-   
-
-  <!-- <h1 id='titel'>hoi hoi</h1>
-
-    <button onclick='waarschuwing()'>klik hier</button>
-
-
-    <script src="../js/main.jsx"></script> -->
 
 </body>
 </html>
