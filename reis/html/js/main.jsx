@@ -24,3 +24,36 @@ const popUpNotification = (message, prio) => {
 const voorbeeldAanroep = () => {
     popUpNotification('This is a notification', 'info');
 }
+
+
+const filter() => { 
+    const $row;
+    const $result;
+    const newList =[];
+    const isZwembad = document.querySelector('#isZwembad').checked;
+    const isAirco = document.querySelector('#isAirco').checked;
+    const isWasmachine = document.querySelector('#isWasmachine').checked;
+    const allProducts = document.querySelectorAll('.products');
+
+    console.log(isZwembad);
+    allProducts.forEach(product =>{
+
+        if (product.innerHTML.includes('zwembad')&& isZwembad == true)
+            console.log('hij is hier')
+            newList.push(product);
+        
+        if (product.innerHTML.includes('airco')&& isAirco == true)
+            console.log('hij is hier airco')
+            newList.push(product);
+
+        if (product.innerHTML.includes('wasmachine')&& isWasmachine == true)
+            console.log('hij is hier wasmachine')
+            newList.push(product);
+    })
+
+    document.querySelector("#product_results").innerHTML = "" ;
+    newList.forEach(product =>{
+        document.querySelector('#product_result').appendChild(product);
+    })
+
+}
