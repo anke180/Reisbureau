@@ -29,6 +29,9 @@
 const filter = () => { 
     const newList =[];
     const isZwembad = document.querySelector('#isZwembad').checked;
+    const isAirco = document.querySelector('#isAirco').checked;
+    const isWasmachine = document.querySelector('#isWasmachine').checked;
+
     const allProducts = document.querySelectorAll('.products');
     
    
@@ -38,7 +41,14 @@ const filter = () => {
         if (product.innerHTML.includes('zwembad')&& isZwembad == true)
             console.log('hij is hier')
             newList.push(product);
-     
+
+        if (product.innerHTML.includes('airco')&& isAirco == true)
+            console.log('hij is hier airco')
+            newList.push(product);
+        
+        if (product.innerHTML.includes('wasmachine')&& isWasmachine == true)
+            console.log('hij is hier wasmachine')
+            newList.push(product);
        
     })
 

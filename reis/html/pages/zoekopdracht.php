@@ -30,6 +30,11 @@
                     <tr class=''>
                      <label class='tekst-filter'>zwembad</label>
                      <input type='checkbox' id='isZwembad'>
+                     <label class='tekst-filter'>airco</label>
+                     <input type='checkbox' id='isAirco'>
+                     <label class='tekst-filter'>wasmachine</label>
+                     <input type='checkbox' id='isWasmachine'>
+
                      <button onclick='filter()'>zoek</button>
                     </tr>
                     </table>  
@@ -69,6 +74,8 @@
                                         echo "<div class='balk-verblijven'>";
                                             echo $row ['informatie']."<br>\n"; 
                                             echo $row ['zwembad']."<br>\n"; 
+                                            echo $row ['airco']."<br>\n";
+                                            echo $row ['wasmachine']."<br>\n";
                                         echo "</div>";
                                     echo "</div>";
 
