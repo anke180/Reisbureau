@@ -21,61 +21,39 @@
         <!-- filter begint hier -->
         <div class="col30">
             <div class="filter-lijst">
+
             
-                <label class='tekst-filter'>zwembad</label>
-                <input type='checkbox' id='isZwembad'>
-                <!-- <button onclick='filter()'>zoek</button> -->
-                <table id='product_result'></table>
 
-                <!-- <tr>
-                    <th class='tekst-filter'>zwembad</th>
-                    
-                </tr>
-                <tr>
-                    <th class='tekst-filter'>airco</th>
-                    
-                </tr>
-                <tr>
-                    <th class='tekst-filter'>wasmachine</th>
-                    
-                </tr> -->
 
-                <label class='tekst-filter'>airco</label>
-                <input type='checkbox' id='isAirco'>
-                <!-- <button onclick='filter()'>zoek</button> -->
-                <table id='product_result'></table>
 
-                <label class='tekst-filter'>wasmachine</label>
-                <input type='checkbox' id='isWasmachine'>
-                <button onclick='filter()'>zoek</button>
-                <table id='product_result'></table>
-                
-
-                <?php foreach($result as $row): ?>
-                    
-                    <tr class='products'>
-                        <td><?php echo $row['zwembad']; ?></td>
+                <table id='product_results'>            
+                    <tr class=''>
+                     <label class='tekst-filter'>zwembad</label>
+                     <input type='checkbox' id='isZwembad'>
+                     <button onclick='filter()'>zoek</button>
                     </tr>
-                    
-                <?php endforeach; ?>
-                
-                <script src='../js/main.jsx'></script>
-            </div>
+                    </table>  
+                   
+                </table>
 
-            
+
+
+            </div>
         </div>
+
+
 
        
         <?php
-                $stmt = $connection->query("SELECT * FROM verblijven  ");
+                $stmt = $connection->query("SELECT * FROM verblijven");
             while ($row = $stmt->fetch()){ 
 
                 echo "<div class='container-col'>";
-                    echo "<div class='container-row'>";
+                    echo "<div class='container-row products'>";
                         echo "<div class='row70'>";
                             echo "<div class='vakantie-balk'>";
                                 echo "<div class='vakantie-blok-wit'>";
-                                                echo" hier komt een foto"; 
+                                        echo" hier komt een foto"; 
                                 echo "</div>";
 
                                 echo "<div class='vakantie-blok-blauw'>";
@@ -90,6 +68,7 @@
 
                                         echo "<div class='balk-verblijven'>";
                                             echo $row ['informatie']."<br>\n"; 
+                                            echo $row ['zwembad']."<br>\n"; 
                                         echo "</div>";
                                     echo "</div>";
 
@@ -114,11 +93,9 @@
                         echo "</div>";
                     echo "</div>";
                 echo "</div>";
-         
-
             }
         ?>
-        
+           <script src='../js/main.jsx'></script>
     </div>
 
 </body>
