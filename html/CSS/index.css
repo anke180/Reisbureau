@@ -11,12 +11,14 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    position: relative;
 }
 .head{
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 0px 100px 0px 100px;
+    
 }
 .but1{
     height: 50px;
@@ -41,6 +43,9 @@ body{
     justify-content: center;
     align-items: center;
     gap: 800px;
+}
+#bckgrnd{
+    margin-top: -400px;
 }
 .none{
     height: 100px;
@@ -76,13 +81,14 @@ body{
 .b3{
     height: 600px;
     width: 100%;
-    background-color: rgba(138, 20, 20, 0.699);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 10%;
     justify-content: center;
     font-family: "Inter", sans-serif;
+    margin-top: 20px;
 }
 .inf2{
     height: 550px;
@@ -116,10 +122,39 @@ body{
     width: 40%;
     background-color: rgb(255, 255, 255);
 }
+.inf5{
+    height: 250px;
+    width: 400px;
+    background-color: #272343;
+    color: #ffffff;
+    padding: 5px;
+}
+.socmed{
+    height: 250px;
+    width: 400px;
+    background-color: #FFD803;
+    padding: 5px;
+}
+.mailing{
+    height: 320px;
+    width: 400px;
+    background-color: #272343;
+    color: #ffffff;
+    padding: 5px;
+}
+.numb{
+    height: 250px;
+    width: 400px;
+    background-color: #FFD803;
+    padding: 5px;
+}
 .main{
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 0px 100px 0px 100px;
     margin-top: 10px;
+}
+#hgt{
+    line-height: 0.5;
 }
