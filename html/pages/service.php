@@ -11,7 +11,6 @@
         <div class="header">
             <div class="logo"></div>
             <a href="../index.php" class="but1">Home</a>
-            <a href="" class="but1">Bestemming</a>
             <a href="service.php" class="but1">Klantenservice</a>
             <a href="login.php" class="but1">Login</a>
         </div>

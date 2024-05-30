@@ -10,10 +10,9 @@
     <div class="head">
         <div class="header">
             <div class="logo"></div>
-            <a href="" class="but1">Home</a>
-            <a href="" class="but1">Bestemming</a>
-            <a href="" class="but1">Klantenservice</a>
-            <a href="" class="but1">Login</a>
+            <a href="../index.php" class="but1">Home</a>
+            <a href="service.php" class="but1">Klantenservice</a>
+            <a href="login.php" class="but1">Login</a>
         </div>
         <div class="b1">
             

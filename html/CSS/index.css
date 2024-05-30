@@ -33,6 +33,12 @@ body{
     align-items: center;
     font-family: "Inter", sans-serif;
 }
+.but2{
+    color: rgb(201, 201, 201);
+}
+#btn{
+    color: black;
+}
 .b1{
     height: 700px;
     width: 100%;
@@ -128,6 +134,30 @@ body{
     background-color: #272343;
     color: #ffffff;
     padding: 5px;
+}
+.dshb{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: "Inter", sans-serif;
+}
+.addloc{
+    height: 200px;
+    width: 70%;
+    background-color: #272343;
+    margin-top: 20px;
+    color: gray;
+}
+.cstmr{
+    height: 200px;
+    width: 40%;
+    background-color: #272343;
+    color: rgb(201, 201, 201);
+}
+.cmpny{
+    height: 200px;
+    width: 40%;
+    background-color: #FFD803;
 }
 .socmed{
     height: 250px;
