@@ -15,7 +15,7 @@
     ?>    
     <div class="container">
         <div class="container-row">
-            <div class="achtergrond">   </div>
+            <div id='margin-background' class="achtergrond">   </div>
         </div>
        
         <!-- filter begint hier -->
@@ -52,7 +52,7 @@
         <?php
                 $stmt = $connection->query("SELECT * FROM verblijven");
             while ($row = $stmt->fetch()){ 
-
+                
                 echo "<div class='container-col'>";
                     echo "<div class='container-row products'>";
                         echo "<div class='row70'>";
@@ -92,6 +92,9 @@
                                                 echo "<a class='tekst-bekijk-vakantie'>Bekijk vakantie</a>";
                                                 echo "<a class='tekst-bekijk-vakantie'
                                                  href='single_product.php?id=" . $row['id'] . "'>link<a/>";
+
+                                                echo "<a href='bekijk_vakantie.php' class='tekst-bekijk-vakantie'>Bekijk vakantie</a>";
+                                                
                                             echo "</div>";
 
                                         echo "</div>";

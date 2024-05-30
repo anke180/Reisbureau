@@ -1,9 +1,9 @@
 <?php
-$host = "db";
-$db = "mydatabase";
-$user = "user";
-$pass = "password";
-$charset = "utf8mb4";
+$host = 'db';
+$db   = 'mydatabase';
+$user = 'user';
+$pass = 'password';
+$charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = [
@@ -11,11 +11,10 @@ $options = [
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
     PDO::ATTR_EMULATE_PREPARES   => false,
 ];
-
-try {
-    $connection = new PDO($dsn, $user, $pass, $options);
-    //echo "Connected to database ";
-} catch (\PDOExeption $e) {
-    echo "Connection failed: " . $e->getMessage();
+try {$connection = new PDO($dsn, $user, $pass, $options);
+    // echo "Connection complete";
+}
+catch(\PDOException $e){
+    echo "connection failed: " . $e ->getMessage();
 }
 ?>
