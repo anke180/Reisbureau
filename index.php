@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    <div class="danger">
+        if($_SESSION['errormessage']){
+            echo $_SESSION['errormessage'];
+        }
+    </div>
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>

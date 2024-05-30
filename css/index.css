@@ -94,9 +94,15 @@ body{
 
 .achtergrond{
     background-image: url("../images/pexels-photo-457882.jpeg");
+    background-size: 1536px;
+    background-repeat: no-repeat;
     height: 400px;
     width: 100%;
     margin-bottom: -100px;
+}
+
+.margin-background {
+    margin-top: -400; 
 }
 
 .row70{
@@ -250,9 +256,9 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-color: rgba(255, 225, 0, 0.7);
+    background-color: rgba(255, 225, 0, 0.807);
     margin-left: 650px;
-    margin-top: 75px;
+    margin-top: 110px;
     margin-bottom: 30px;
 }
 
@@ -358,20 +364,8 @@ body{
 }
 /* einde register */
 
-/* dit is voor de main.jsx */
-/* dit is gemaakt door anke */
-/* .info {
+/* background-size: 1536px */
 
-    top: 0;
-    right: 0;
-} */
-
-/* .danger {
-
-} */
-
-/* .succes {
-
-} */
-
-/* hoe maak je dit ook als weer op? */
+.danger {
+    
+}
