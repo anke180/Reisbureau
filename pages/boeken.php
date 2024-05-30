@@ -10,7 +10,7 @@
     <body>
         <header>
             <?php
-                include ../include/nav.php;
+                include "../include/nav.php";
             ?>
         </header>
         <main>
