@@ -8,18 +8,13 @@
     </head>
     <body>
         <header>
-            <?php
-                include ../include/nav.php;
-            ?>
+        <?php
+            include "../include/nav.php";
+            include "../include/conn.php";
+        ?>  
         </header>
         <main>
-            <?php
-                $stmt = $connection->query("SELECT * FROM verblijven  ");
-                while ($row = $stmt->fetch()){ 
-                    echo 
-
-                }
-            ?>
+            
         </main>
         <footer>
 

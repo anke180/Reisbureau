@@ -1,11 +1,11 @@
-<?php
+<!-- <?php
     session_start();
-    <div class="danger">
+        echo'div class="danger"';
         if($_SESSION['errormessage']){
             echo $_SESSION['errormessage'];
         }
-    </div>
-?>
+    echo'</div>';
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">

@@ -22,7 +22,6 @@
         <div class="col30">
             <div class="filter-lijst">
 
-            
 
 
 
@@ -52,11 +51,12 @@
         <?php
                 $stmt = $connection->query("SELECT * FROM verblijven");
             while ($row = $stmt->fetch()){ 
-                
+             
                 echo "<div class='container-col'>";
                     echo "<div class='container-row products'>";
                         echo "<div class='row70'>";
                             echo "<div class='vakantie-balk'>";
+                           
                                 echo "<div class='vakantie-blok-wit'>";
                                         echo" hier komt een foto"; 
                                 echo "</div>";
@@ -89,12 +89,7 @@
                                     
                                         echo "<div class='balk-bekijk-vakantie'>";
                                             echo "<div class='bekijk-vakantie'>";
-                                                echo "<a class='tekst-bekijk-vakantie'>Bekijk vakantie</a>";
-                                                echo "<a class='tekst-bekijk-vakantie'
-                                                 href='single_product.php?id=" . $row['id'] . "'>link<a/>";
-
-                                                echo "<a href='bekijk_vakantie.php' class='tekst-bekijk-vakantie'>Bekijk vakantie</a>";
-                                                
+                                                echo "<a class='tekst-bekijk-vakantie' href='bekijk_vakantie.php?id=" . $row['id'] . "'>Bekijk vakantie</a>";
                                             echo "</div>";
 
                                         echo "</div>";
