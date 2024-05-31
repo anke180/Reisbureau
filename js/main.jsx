@@ -51,7 +51,7 @@ const filter = () => {
        
     })
 
-    document.querySelector("#product_results").innerHTML = "" ;
+    document.querySelector("#product_results").innerHTML = "";
     newList.forEach(product =>{
         document.querySelector('#product_results').appendChild(product);
     })

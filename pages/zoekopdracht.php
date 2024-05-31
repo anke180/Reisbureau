@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Reisbueau Bestemming pagina</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -13,9 +13,11 @@
         include "../include/nav.php";
         include "../include/conn.php";
     ?>    
+
     <div class="container">
         <div class="container-row">
             <div id='margin-background' class="achtergrond">   </div>
+            <!-- hier moeten de col30 en col70 in -->
         </div>
        
         <!-- filter begint hier -->
@@ -25,7 +27,7 @@
 
 
 
-                <table id='product_results'>            
+                <table >            
                     <tr class=''>
                      <label class='tekst-filter'>zwembad</label>
                      <input type='checkbox' id='isZwembad'>
@@ -39,23 +41,22 @@
                     </table>  
                    
                 </table>
-
-
-
             </div>
         </div>
+
+        <div class="col70" id='product_results'>
 
 
 
        
         <?php
-                $stmt = $connection->query("SELECT * FROM verblijven");
+                $stmt = $connection->query("SELECT * FROM verblijven WHERE id=1");
             while ($row = $stmt->fetch()){ 
              
                 echo "<div class='container-col'>";
                     echo "<div class='container-row products'>";
                         echo "<div class='row70'>";
-                            echo "<div class='vakantie-balk'>";
+                            echo "<div class='vakantie-balk' >";
                            
                                 echo "<div class='vakantie-blok-wit'>";
                                         echo" hier komt een foto"; 
@@ -102,6 +103,7 @@
                 echo "</div>";
             }
         ?>
+        </div>
            <script src='../js/main.jsx'></script>
     </div>
 
