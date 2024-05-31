@@ -72,7 +72,8 @@
                                     
                                         echo "<div class='balk-bekijk-vakantie'>";
                                             echo "<div class='bekijk-vakantie'>";
-                                                echo "<a href='bekijk_vakantie.php' class='tekst-bekijk-vakantie'>Bekijk vakantie</a>";
+                                                // echo "<a href='bekijk_vakantie.php' class='tekst-bekijk-vakantie'>Bekijk vakantie</a>";
+                                                echo '<a href="bekijk_vakantie.php?id='. $row['id'] . '">Bekijk vakantie</a>';
                                             echo "</div>";
 
                                         echo "</div>";

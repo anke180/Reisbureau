@@ -16,11 +16,16 @@
         </header>
         <main>
             <?php
-                $stmt = $connection->query("SELECT * FROM verblijven WHERE id=1");
+            // RECENTIES MISSCHIEN NAAST HET PLAATJE VOOR MEER DINGEN OP DE PAGINA (WEL FAKE)
+                $_GET['id'];
+                $stmt = $connection->prepare("SELECT * FROM verblijven WHERE id = :id ");
+                $stmt->execute(['id' => $_GET['id']]);
                 while ($row = $stmt->fetch()){ 
                     echo "<div class='informatie-verblijf'>";
                         echo "<div class='naam-verblijf'>";
+                            echo "<h1>";
                             echo $row ['naam']."<br>\n";
+                            echo "</h1>";
                             echo $row ['land-van-verblijf']."<br>\n";
                         echo "</div>"; //einde naam-verblijf
                         echo "<div class='plaatje-verblijf'>";

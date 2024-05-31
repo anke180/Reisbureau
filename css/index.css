@@ -392,10 +392,10 @@ body{
 }
 
 .alle-informatie-verblijf {
-    /* padding: 25px; */
+    padding: 25px;
     color: #FFFFFF;
     width: 500px;
-    height: 250px;
+    height: auto;
     background-color: #272343;
     font-size: 25px;
 }
@@ -406,6 +406,7 @@ body{
     height: 250px;
     background-color: #FFD803;
     font-size: 25px;
+    padding: 25px;
 }
 
 .boeken-knop {
