@@ -364,8 +364,66 @@ body{
 }
 /* einde register */
 
-/* background-size: 1536px */
-
-.danger {
+/* main.jsx */
+/* gemaakt door anke */
+/* .danger {
     
+} */
+
+/* bekijk vakantie pagina */
+/* gemaakt door anke */
+.informatie-verblijf {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 100px;
+}
+
+.naam-verblijf {
+    font-size: 50px;
+}
+
+.informatie-en-prijs-verblijf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.alle-informatie-verblijf {
+    /* padding: 25px; */
+    color: #FFFFFF;
+    width: 500px;
+    height: 250px;
+    background-color: #272343;
+    font-size: 25px;
+}
+
+.prijs-per-persoon-verblijf {
+    color: #000000;
+    width: 250px;
+    height: 250px;
+    background-color: #FFD803;
+    font-size: 25px;
+}
+
+.boeken-knop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boeken-verblijf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    background-color: #272343;
+    color: #FFFFFF;
+    margin: 50px;
+    font-size: 25px;
 }
