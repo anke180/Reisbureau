@@ -30,24 +30,63 @@ const filter = () => {
     const isZwembad = document.querySelector('#isZwembad').checked;
     const isAirco = document.querySelector('#isAirco').checked;
     const isWasmachine = document.querySelector('#isWasmachine').checked;
+    const isStrand = document.querySelector('#isStrand').checked;
+    const isSpa = document.querySelector('#isSpa').checked;
+    const isSportPlaats = document.querySelector('#isSportPlaats').checked;
+    const isBars = document.querySelector('#isBars').checked;
+    const isInternet = document.querySelector('#isInternet').checked;
+    const isRestaurant = document.querySelector('#isRestaurant').checked;
 
-    const allProducts = document.querySelectorAll('.products');
+    const allProducts = document.querySelectorAll('.vakantie-balk');
     
    
     console.log(isZwembad);
     allProducts.forEach(product =>{
 
-        if (product.innerHTML.includes('zwembad')&& isZwembad == true)
-            console.log('hij is hier')
+        console.log(product.childNodes[1].textContent);
+        if (product.childNodes[1].textContent.includes('Zwembad') && isZwembad == true){
             newList.push(product);
+        }
+         
+        console.log(product.childNodes[1].textContent);
+        if (product.childNodes[1].textContent.includes('airco') && isAirco == true){
+            newList.push(product);
+        }
 
-        if (product.innerHTML.includes('airco')&& isAirco == true)
-            console.log('hij is hier airco')
+        console.log(product.childNodes[1].textContent);
+        if (product.childNodes[1].textContent.includes('wasmachine') && isWasmachine == true){
             newList.push(product);
-        
-        if (product.innerHTML.includes('wasmachine')&& isWasmachine == true)
-            console.log('hij is hier wasmachine')
+        }
+
+        console.log(product.childNodes[1].textContent);
+        if (product.childNodes[1].textContent.includes('strand') && isStrand == true){
             newList.push(product);
+        }
+
+        console.log(product.childNodes[1].textContent);
+        if (product.childNodes[1].textContent.includes('spa') && isSpa == true){
+            newList.push(product);
+        }
+
+        console.log(product.childNodes[1].textContent);
+        if (product.childNodes[1].textContent.includes('sport-plaats') && isSportPlaats == true){
+            newList.push(product);
+        }
+    
+        console.log(product.childNodes[1].textContent);
+        if (product.childNodes[1].textContent.includes('bars') && isBars == true){
+            newList.push(product);
+        }
+
+        console.log(product.childNodes[1].textContent);
+        if (product.childNodes[1].textContent.includes('internet') && isInternet == true){
+            newList.push(product);
+        }
+
+        console.log(product.childNodes[1].textContent);
+        if (product.childNodes[1].textContent.includes('restaurant') && isRestaurant == true){
+            newList.push(product);
+        }
        
     })
 
