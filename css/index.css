@@ -381,7 +381,49 @@ body{
 }
 
 .naam-verblijf {
-    font-size: 50px;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.plaatje-reacties-verblijf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+
+}
+
+.reacties-verblijf {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-size: 18px;
+}
+
+.review1 {
+    height: auto;
+    background-color: #FFD803;
+    color: #000000;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.review2 {
+    height: auto;
+    background-color: #FFD803;
+    color: #000000;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.review3 {
+    height: auto;
+    background-color: #FFD803;
+    color: #000000;
+    padding: 10px;
 }
 
 .informatie-en-prijs-verblijf {
@@ -395,7 +437,7 @@ body{
     padding: 25px;
     color: #FFFFFF;
     width: 500px;
-    height: auto;
+    height: 100%;
     background-color: #272343;
     font-size: 25px;
 }
@@ -403,10 +445,16 @@ body{
 .prijs-per-persoon-verblijf {
     color: #000000;
     width: 250px;
-    height: 250px;
+    height: 100%;
     background-color: #FFD803;
     font-size: 25px;
     padding: 25px;
+}
+
+.faciliteiten-lijst {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
 }
 
 .boeken-knop {
@@ -425,6 +473,9 @@ body{
     height: 60px;
     background-color: #272343;
     color: #FFFFFF;
-    margin: 50px;
+    margin: 95px;
     font-size: 25px;
+    padding: 25px;
 }
+
+/* height is op auto maar dat doet die niet bij de derde volgens mij */
