@@ -36,6 +36,8 @@ const filter = () => {
     const isBars = document.querySelector('#isBars').checked;
     const isInternet = document.querySelector('#isInternet').checked;
     const isRestaurant = document.querySelector('#isRestaurant').checked;
+    
+   
 
     const allProducts = document.querySelectorAll('.vakantie-balk');
     
@@ -87,6 +89,8 @@ const filter = () => {
         if (product.childNodes[1].textContent.includes('restaurant') && isRestaurant == true){
             newList.push(product);
         }
+
+       
        
     })
 

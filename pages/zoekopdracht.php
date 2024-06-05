@@ -52,6 +52,7 @@
 
                             <label class='tekst-filter'>restaurant</label>
                             <input type='checkbox' id='isRestaurant'>
+                           
 
                             <button onclick='filter()'>zoek</button>
                         </tr>
@@ -87,70 +88,75 @@
                                                 echo $row ['beoordeling']."<br>\n"; 
                                             echo "</div>";
 
-                                            echo "<div class='balk-verblijven'>";
-                                                // echo $row ['informatie']."<br>\n"; 
+                                            echo "<div class='balk-tekst-hotel'>";
+                                                echo"<a class='tekst-hotel'>In dit verblijf hebben we een </a>";
+                                            echo "</div>";
+
+                                            echo "<div class='balk-verblijven'>";                                              
+
                                                 if($row['zwembad'] == 1){
                                                     echo'Zwembad' ."<br>\n";
                                                 }
                                                 else{
-                                                    echo'geen'."<br>\n";
+                                                    echo''."<br>\n";
                                                 }
 
                                                 if($row['airco'] == 1){
                                                     echo'airco' ."<br>\n";
                                                 }
                                                 else{
-                                                    echo'geen'."<br>\n";
+                                                    echo''."<br>\n";
                                                 }
 
                                                 if($row['wasmachine'] == 1){
                                                     echo'wasmachine' ."<br>\n";
                                                 }
                                                 else{
-                                                    echo'geen'."<br>\n";
+                                                    echo''."<br>\n";
                                                 }
 
                                                 if($row['strand'] == 1){
                                                     echo'strand' ."<br>\n";
                                                 }
                                                 else{
-                                                    echo'geen'."<br>\n";
+                                                    echo''."<br>\n";
                                                 }
 
                                                 if($row['spa'] == 1){
                                                     echo'spa' ."<br>\n";
                                                 }
                                                 else{
-                                                    echo'geen'."<br>\n";
+                                                    echo''."<br>\n";
                                                 }
 
                                                 if($row['sport-plaats'] == 1){
                                                     echo'sport-plaats' ."<br>\n";
                                                 }
                                                 else{
-                                                    echo'geen'."<br>\n";
+                                                    echo''."<br>\n";
                                                 }
 
                                                 if($row['bars'] == 1){
                                                     echo'bars' ."<br>\n";
                                                 }
                                                 else{
-                                                    echo'geen'."<br>\n";
+                                                    echo''."<br>\n";
                                                 }
                                                 
                                                 if($row['internet'] == 1){
                                                     echo'internet' ."<br>\n";
                                                 }
                                                 else{
-                                                    echo'geen'."<br>\n";
+                                                    echo''."<br>\n";
                                                 }
 
                                                 if($row['restaurant'] == 1){
                                                     echo'restaurant' ."<br>\n";
                                                 }
                                                 else{
-                                                    echo'geen'."<br>\n";
+                                                    echo''."<br>\n";
                                                 }
+
                                               
                                             echo "</div>";
                                         echo "</div>";
@@ -159,9 +165,19 @@
 
                                     echo "<div class='vakantie-blok-blauw'>";
                                         echo "<div class='een-vlucht-informatie'>";
-                                            echo "<div class='balk-tekst-vlucht'>";
-                                                echo "<a class='tekst-vlucht'>hier komt een stuk tekst over de vlucht te staan</a>";
+                                            echo "<div class='balk-verblijven'>";
+                                                echo "<a class='tekst-vlucht'>voor meer informatie over de vakantie klik op 'bekijk vakantie'</a>";
                                             echo "</div>";
+                                            echo "<div class='balk-beordeling'>";
+                                                echo "<div class='balk-tekst-vlucht'>";
+                                                    echo "<a class='tekst-vlucht'>€</a>";
+                                                echo "</div>";
+                                                echo $row ['prijs']."<br>\n"; 
+                                            echo "</div>";
+
+                                            // echo "<div class='balk-tekst-vlucht'>";
+                                            //     echo "<a class='tekst-vlucht'>hier komt een stuk tekst over de vlucht te staan</a>";
+                                            // echo "</div>";
                                         
                                             echo "<div class='balk-bekijk-vakantie'>";
                                                 echo "<div class='bekijk-vakantie'>";
