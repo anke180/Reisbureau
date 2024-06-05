@@ -478,4 +478,28 @@ h1 {
     padding: 25px;
 }
 
-/* height is op auto maar dat doet die niet bij de derde volgens mij */
+/* dashboard beheer */
+/* gemaakt door Anke */
+.background-tabel {
+    width: auto;
+    height: auto;
+    background-color: #272343;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoofd-tekst-tabel {
+    width: 200px;
+    height: 60px;
+    background-color: aqua;
+    
+}
+
+.results-voor-beheer{
+    width: 200px;
+    height: 60px;
+    background-color: #FFD803;
+}
