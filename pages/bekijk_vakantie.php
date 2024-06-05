@@ -52,9 +52,6 @@
                                 echo ($row ['airco']) ? 'Airco' ."<br>\n" : '';
                                 echo ($row ['wasmachine']) ? 'Wasmachine' ."<br>\n" : '';
                                 echo ($row ['strand']) ? 'Strand' ."<br>\n" : '';
-                                // echo ($row ['all-inclusive']) ? 'All-inclusive' ."<br>\n" : '';
-                                // echo ($row ['half-pension']) ? 'Half-pension' ."<br>\n" : '';
-                                // echo ($row ['vol-pension']) ? 'Vol-pension' ."<br>\n" : '';
                                 echo ($row ['glijbanen']) ? 'Glijbanen' ."<br>\n" : '';
                                 echo ($row ['animatie-kinderen']) ? 'Animatie-kinderen' ."<br>\n" : '';
                                 echo ($row ['adult-only']) ? 'Adult-only' ."<br>\n" : '';
