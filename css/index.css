@@ -5,6 +5,7 @@ body{
 }
 
 /* hier begint de nav */
+/* gemaakt door Rens */
 .header{
     height: 100px;
     width: 100%;
@@ -366,9 +367,32 @@ body{
 
 /* main.jsx */
 /* gemaakt door anke */
-/* .danger {
-    
-} */
+.danger {
+    position: absolute;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: #000000;
+    animation: displayNone;
+    animation-duration: 3s;
+} 
+
+@keyframes displayNone {
+    0% {
+        display: flex;
+    }
+    99% {
+        display: flex;
+    }
+    100%{
+        display: none;
+    }
+}
 
 /* bekijk vakantie pagina */
 /* gemaakt door anke */

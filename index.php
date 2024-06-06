@@ -1,11 +1,13 @@
 <?php
     session_start();
-    ?><div class="danger">
-      <?php  if($_SESSION['errormessage']){
+    if(isset($_SESSION['errormessage'])){
+        echo '<div class="danger">';
             echo $_SESSION['errormessage'];
-        }
-        ?>
-    </div>
+        echo '</div>';
+        //session_unset['errormessage'];
+    }
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">

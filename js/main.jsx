@@ -1,3 +1,4 @@
+// gemaakt door Anke in de les
 console.log('Hallo wereld');
 
 const titelnew = document.querySelector('#titel');
