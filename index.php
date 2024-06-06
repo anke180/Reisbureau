@@ -17,15 +17,13 @@
         <link rel="stylesheet" href="CSS/index.css">
     </head>
     <body>
+
+    <?php
+            include "include/nav.php";
+    ?>
+
     <div class="head">
-        <div class="header">
-            <div class="logo"></div>
-            <a href="" class="but1">LOGO</a>
-            <a href="index.php" class="but1">Home</a>
-            <a href="pages/service.php" class="but1">Klantenservice</a>
-            <a href="pages/login.php" class="but1">Login</a>
-            <a href="dashboard.php" class="but1">Dashboard</a>
-        </div>
+      
         <div class="b1">
             <div class="inf1">
                 <!-- Form voor de filter optie -->
