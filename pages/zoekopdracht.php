@@ -75,7 +75,7 @@
                                 echo "<div class='vakantie-balk' >";
                             
                                     echo "<div class='vakantie-blok-wit'>";
-                                            echo" hier komt een foto"; 
+                                    echo "<img src=" . $row ['image'] . " width='260px' height='240px'><br>\n";
                                     echo "</div>";
 
                                     echo "<div class='vakantie-blok-blauw'>";
