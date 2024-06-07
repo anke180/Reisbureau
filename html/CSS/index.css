@@ -20,6 +20,9 @@ body{
     padding: 0px 100px 0px 100px;
     
 }
+.logo{
+    height: 90px;
+}
 .but1{
     height: 50px;
     padding: 10px;
@@ -118,15 +121,16 @@ body{
     background-color: #FFD803;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     gap: 10px;
     padding: 10px;
 }
 .inf4{
-    height: 150px;
-    width: 40%;
+    height: 100px;
+    width: 90%;
     background-color: rgb(255, 255, 255);
+    border-radius: 13px;
 }
 .inf5{
     height: 250px;
