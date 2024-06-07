@@ -432,6 +432,7 @@
 .tekst-bekijk-vakantie{
     font-size: medium;
     color: #FFFFFF;
+    text-decoration: none;
 }
 /* einde zoekopdracht */
 
@@ -616,10 +617,12 @@
 /* gemaakt door anke */
 .informatie-verblijf {
     height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 100px;
+    padding: 40px;
+    background-image: url(../images/achtergrond-bekijk-vakantie.jpg);
 }
 
 .naam-verblijf {
@@ -710,6 +713,7 @@ h1 {
     justify-content: center;
     align-items: center;
     border-radius: 3px;
+    text-decoration: none;
 }
 
 .boeken-verblijf {
@@ -725,6 +729,7 @@ h1 {
     font-size: 25px;
     padding: 25px;
     border-radius: 3px;
+    text-decoration: none;
 }
 
 /* dashboard beheer pagina */
