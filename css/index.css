@@ -372,7 +372,7 @@ body{
     top: 0;
     height: 75px;
     width: 100%;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -380,17 +380,24 @@ body{
     color: #000000;
     animation: displayNone;
     animation-duration: 3s;
+    animation-fill-mode: forwards;
 } 
 
 @keyframes displayNone {
     0% {
         display: flex;
     }
-    99% {
+    90% {
         display: flex;
+        opacity:1;
+    }
+    99%{
+        display: flex;
+        opacity: 0;
     }
     100%{
         display: none;
+        opacity: 0;
     }
 }
 

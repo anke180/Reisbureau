@@ -4,7 +4,7 @@
         echo '<div class="danger">';
             echo $_SESSION['errormessage'];
         echo '</div>';
-        //session_unset['errormessage'];
+        unset($_SESSION['errormessage']);
     }
 ?>
 
@@ -21,7 +21,8 @@
     <body>
         <?php
             include "./include/nav.php";
-        ?>
+            
+        ?> 
 
     
     </body>

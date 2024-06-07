@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap">
-<link rel="stylesheet" href="../css/index.css">
 
 <div class="head">
     <div class="header">
