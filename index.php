@@ -1,38 +1,30 @@
-<!-- <?php
-    session_start();
-        echo'div class="danger"';
-        if($_SESSION['errormessage']){
-            echo $_SESSION['errormessage'];
-        }
-    echo'</div>';
-?> -->
+<?php
+    // session_start();
+    //     echo'div class="danger"';
+    //     if($_SESSION['errormessage']){
+    //         echo $_SESSION['errormessage'];
+    //     }
+    // echo'</div>';
+?> 
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
-        <title>Reisbureau home pagina</title>
-        <link rel="stylesheet" href="CSS/index.css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Reisbureau</title>
+</head>
+<body>
+<?php
+    include "include/nav.php";
+?>
 
-    <?php
-            include "include/nav.php";
-    ?>
-
-    <div class="head">
-      
-        <div class="b1">
-            <div class="inf1">
-                <!-- Form voor de filter optie -->
-            </div>
-            <div class="none">
-                
-            </div>
-        </div>
-        
+       
+<div id='margin-background' class="achtergrond">   </div>
+       
+       
     </div>
     <div class="main">
         <div class="b2">
@@ -56,7 +48,7 @@
                 </div>
             </div>
             <div class="inf3">
-                <div class="inf4"></div>
+                <h3>Beoordelingen</h3>
                 <div class="inf4"></div>
                 <div class="inf4"></div>
                 <div class="inf4"></div>

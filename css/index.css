@@ -5,18 +5,28 @@ body{
 }
 
 
-
 /* hier begint de nav */
+.head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px 0px 100px;
+   
+}
+
 .header{
     height: 100px;
     width: 100%;
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-around;    
+    gap: 20px;
+    position: relative;
 }
 
+/*   */
 .logo-blok{
     height: 100px;
     width: 30%;
@@ -31,6 +41,7 @@ body{
     height: 50px;
     width: 150px;
     background-color: #2D334A;
+    border-radius: 3px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,13 +50,248 @@ body{
     align-items: center;
     font-family: "Inter", sans-serif;
 }
-.b1{
-    height: 200px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-image: url("../images/pexels-photo-457882.jpeg");
-}
 /* einde nav */
+
+/* begin index gemaakt door Rens */
+
+.but2{
+    color: rgb(201, 201, 201);
+}
+#btn{
+    color: black;
+}
+.b1{
+    height: 700px;
+    width: 100%;
+    background-image: url(/images/pexels-photo-457882.jpeg);
+    background-size: 1536px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 800px;
+    /* margin-bottom: -00px; */
+}
+#bckgrnd{
+    margin-top: -400px;
+}
+.none{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.inf{
+    height: 100px;
+    width: 80%;
+    background-color: grey;
+    padding: 10px;
+}
+#text{
+    height: 0;
+}
+.inf1{
+    height: auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #272343;
+}
+.b2{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+.b3{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+}
+.inf2{
+    height: 650px;
+    width: 30%;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #272343;
+    border-width: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+ 
+}
+.inf3{
+    height: 550px;
+    width: 50%;
+    background-color: #FFD803;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.inf4{
+    height: 150px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+}
+/* einde index */
+
+/* begin service gemaakt door Rens */
+.inf5{
+    height: 250px;
+    width: 400px;
+    background-color: #272343;
+    color: #ffffff;
+    padding: 5px;
+}
+.dshb{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: "Inter", sans-serif;
+}
+.addloc{
+    height: 200px;
+    width: 70%;
+    background-color: #272343;
+    margin-top: 20px;
+    color: gray;
+}
+.cstmr{
+    height: 200px;
+    width: 40%;
+    background-color: #272343;
+    color: rgb(201, 201, 201);
+}
+.cmpny{
+    height: 200px;
+    width: 40%;
+    background-color: #FFD803;
+}
+.socmed{
+    height: 300px;
+    width: 488px;
+    background-color: #FFD803;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mailing{
+    height: 300px;
+    width: 488px;
+    background-color: #272343;
+    color: #ffffff;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tekst-blok-service{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.numb{
+    height: 300px;
+    width: 488px;
+    background-color: #FFD803;
+    padding: 5px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px 0px 100px;
+    margin-top: 10px;
+}
+#hgt{
+    line-height: 0.5;}
+
+/* gemaakt door Ruveyda service*/
+.container-service-email{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+.blok-email{
+    height: 500px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.mail-blok{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFD803;
+}
+
+.tekst-mail-sturen-balk{
+    height: 80px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.tekst-mail-sturen{
+    height: 100%;
+    width: 100%;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .balk-mail{
+    height: ;
+} */
 
 /* hier begint zoekopdracht */
 /* gemaakt door Ruveyda */

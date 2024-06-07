@@ -23,7 +23,7 @@
                             </div>
                             <div class="telefoonnummer">
                                 <label class="tekst-colour">Tel: </label>
-                                <input class="background" type="number" name="tel" placeholder="Telefoonnummer" required>
+                                <input class="background" type="text" name="tel" placeholder="Telefoonnummer" required>
                             </div>
                             <div class="password">
                                 <label class="tekst-colour">Password: </label>
