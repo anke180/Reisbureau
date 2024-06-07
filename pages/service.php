@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../css/index.css">
     <title>Reisbureau</title>
 </head>
 <body>
     <div class="head">
         <div class="header">
-            <div class="logo"></div>
+            <div class="logo">
+                <img class='logo-plaatje' src="../images/Screenshot_2.jpg">
+            </div>
             <a href="../index.php" class="but1">Home</a>
+            <a href="../pages/zoekopdracht.php" class="but1">Bestemming</a>
             <a href="service.php" class="but1">Klantenservice</a>
             <a href="login.php" class="but1">Login</a>
         </div>

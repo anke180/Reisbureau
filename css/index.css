@@ -1,23 +1,11 @@
-body{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
-/* hier begint de nav */
+/* index pagina */
 /* gemaakt door Rens */
-.header{
-    height: 100px;
-    width: 100%;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;    
-}
-
 .logo-blok{
     height: 100px;
     width: 30%;
@@ -27,29 +15,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-
-.but1{
-    height: 50px;
-    width: 150px;
-    background-color: #2D334A;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-decoration: none;
-    color: #ffffff;
-    align-items: center;
-    font-family: "Inter", sans-serif;
-}
-.b1{
-    height: 200px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-image: url("../images/pexels-photo-457882.jpeg");
-}
-/* einde nav */
-
-/* index pagina */
-/* gemaakt door rens */
 .header{
     height: 100px;
     width: 100%;
@@ -66,7 +31,10 @@ body{
     justify-content: center;
     flex-direction: column;
     padding: 0px 100px 0px 100px;
-   
+}
+.logo-plaatje {
+    width: 240px;
+    height: 95px;
 }
 .but1{
     height: 50px;
@@ -90,7 +58,7 @@ body{
 .b1{
     height: 700px;
     width: 100%;
-    background-image: url(/images/pexels-photo-457882.jpeg);
+    background-image: url(../images/pexels-photo-457882.jpeg);
     background-size: 1536px;
     background-repeat: no-repeat;
     display: flex;
@@ -143,6 +111,7 @@ body{
     justify-content: center;
     font-family: "Inter", sans-serif;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 .inf2{
     height: 550px;
@@ -214,17 +183,19 @@ body{
     padding: 5px;
 }
 .mailing{
-    height: 320px;
+    height: auto;
     width: 400px;
     background-color: #272343;
     color: #ffffff;
     padding: 5px;
+    margin-top: 15px;
 }
 .numb{
     height: 250px;
     width: 400px;
     background-color: #FFD803;
     padding: 5px;
+    margin-top: 15px;
 }
 .main{
     display: flex;
@@ -234,7 +205,7 @@ body{
     margin-top: 10px;
 }
 #hgt{
-    line-height: 0.5;
+    line-height: 1.5;
 }
 
 
@@ -473,7 +444,6 @@ body{
     background-image: url("../images/b51hm1au1uy21.jpg"); 
 }
 
-
 .login-form {
     height: auto;
     display: flex;
@@ -492,6 +462,7 @@ body{
     margin-left: 650px;
     margin-top: 110px;
     margin-bottom: 30px;
+    border-radius: 3px;
 }
 
 .hoofd-tekst {
@@ -511,12 +482,14 @@ body{
     align-items: center;
     padding: 20px;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .background {
     background-color: #272343;
     color: #FFFFFF;
     border: none;
+    border-radius: 3px;
 }
 
 .password {
@@ -528,6 +501,7 @@ body{
     align-items: center;
     padding: 20px;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .login-signin {
@@ -536,6 +510,7 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    border-radius: 3px;
 }
 
 .signin {
@@ -546,6 +521,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .login2 {
@@ -556,6 +532,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    border-radius: 3px;
 }
 /* einde inlog */
 
@@ -572,6 +549,7 @@ body{
     margin-left: 220px;
     margin-top: 110px;
     margin-bottom: 30px;
+    border-radius: 3px;
 }
 
 .telefoonnummer {
@@ -583,6 +561,7 @@ body{
     align-items: center;
     padding: 20px;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .signin-button {
@@ -593,6 +572,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px; 
+    border-radius: 3px;
 }
 /* einde register */
 
@@ -671,6 +651,7 @@ h1 {
     color: #000000;
     margin-bottom: 25px;
     padding: 10px;
+    border-radius: 3px;
 }
 
 .review2 {
@@ -679,6 +660,7 @@ h1 {
     color: #000000;
     margin-bottom: 25px;
     padding: 10px;
+    border-radius: 3px;
 }
 
 .review3 {
@@ -686,6 +668,7 @@ h1 {
     background-color: #FFD803;
     color: #000000;
     padding: 10px;
+    border-radius: 3px;
 }
 
 .informatie-en-prijs-verblijf {
@@ -702,6 +685,7 @@ h1 {
     height: 100%;
     background-color: #272343;
     font-size: 25px;
+    border-radius: 3px;
 }
 
 .prijs-per-persoon-verblijf {
@@ -711,6 +695,7 @@ h1 {
     background-color: #FFD803;
     font-size: 25px;
     padding: 25px;
+    border-radius: 3px;
 }
 
 .faciliteiten-lijst {
@@ -724,6 +709,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
 }
 
 .boeken-verblijf {
@@ -738,9 +724,10 @@ h1 {
     margin: 95px;
     font-size: 25px;
     padding: 25px;
+    border-radius: 3px;
 }
 
-/* dashboard beheer */
+/* dashboard beheer pagina */
 /* gemaakt door Anke */
 .background-tabel {
     width: auto;
@@ -751,13 +738,12 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
 }
 
 .hoofd-tekst-tabel {
     width: 200px;
     height: 60px;
-    background-color: aqua;
-    
 }
 
 .results-voor-beheer{
