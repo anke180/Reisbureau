@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
     session_start();
     if(isset($_SESSION['errormessage'])){
         echo '<div class="danger">';
