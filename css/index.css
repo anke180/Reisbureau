@@ -4,6 +4,8 @@ body{
     box-sizing: border-box;
 }
 
+
+
 /* hier begint de nav */
 /* gemaakt door Rens */
 .header{
@@ -49,9 +51,10 @@ body{
 /* hier begint zoekopdracht */
 /* gemaakt door Ruveyda */
 .container{
-    height: auto;
-    width: auto;
-    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -62,7 +65,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .container-col{
@@ -81,6 +84,24 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.col70{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-om-col30{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .filter-lijst{
@@ -133,6 +154,7 @@ body{
     width: 260px;
     background-color: #FFFFFF;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     column-gap: 15px;
     align-items: center;
@@ -144,6 +166,7 @@ body{
     width: 260px;
     background-color: #E3F6F5;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     column-gap: 15px;
     align-items: center;
@@ -155,18 +178,19 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     background-color: #E3F6F5;
+    margin-left: 15px;
 }
 
 .balk-verblijven{
-    height: 50px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     background-color: #E3F6F5;
 }
 
@@ -186,8 +210,25 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex-wrap: wrap;
     justify-content: flex-end;
     background-color: #E3F6F5;
+}
+
+.balk-tekst-hotel{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.tekst-hotel{
+    height: 90%;
+    width: 90%;
+    font-size: medium;
+    color: #000000;
 }
 
 .balk-tekst-vlucht{
@@ -196,15 +237,15 @@ body{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: #E3F6F5;
 }
 
 .tekst-vlucht{
-    height: 90%;
-    width: 90%;
+    height: 82%;
     font-size: medium;
     color: #2D334A;
+    margin-left: 15px;
 }
 
 .balk-bekijk-vakantie{
