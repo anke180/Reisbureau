@@ -15,7 +15,7 @@
     <label>Hoeveel gasten?</label>
 
     <input  type="number" id='amountGuests' name="aantal_gasten" placeholder="1">
-    <input type="button" name="submit" value="submit">
+    <button type="submit" name="submit" value="submit">Boeken</button>
 </form>
 <br>
 </body>
