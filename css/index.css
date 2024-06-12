@@ -241,7 +241,7 @@ body{
     height: auto;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     
@@ -289,9 +289,94 @@ body{
     justify-content: center;
 }
 
-/* .balk-mail{
-    height: ;
-} */
+.blok-lang-mail{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.blok-klein-mail{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.balk-groot-mail{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.balk-mail{
+    height: 80%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #272343;
+}
+
+.blok-send{
+    height: 60%;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #272343;
+}
+
+.blok-tekst-mail{
+    height: 80%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+}
+
+.mail{
+    height: 100%;
+    width: 100%;
+    background-color: #272343;
+    border: none;
+    color: #FFFFFF;
+}
+
+.send{
+    height: 50%;
+    width: 50%;
+    background-color: #272343;
+    /* border: none; */
+    border-color: #000000;
+    color: #FFFFFF;
+}
+
+.tekst{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: none;
+    color: #000;
+}
+
+/* einde service Ruveyda */
 
 /* hier begint zoekopdracht */
 /* gemaakt door Ruveyda */
