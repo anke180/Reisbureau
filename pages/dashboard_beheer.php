@@ -7,7 +7,7 @@
     $stmt->execute();
     $result_users = $stmt->fetchAll();
 
-    
+
     $sql = "SELECT * 
     FROM verblijven";
     $stmt = $connection->prepare($sql);

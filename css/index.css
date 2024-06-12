@@ -746,16 +746,25 @@ h1 {
     border-radius: 3px;
 }
 
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
 .hoofd-tekst-tabel {
     width: 200px;
     height: 60px;
     color: #FFFFFF;
+    font-size: 25px;
 }
 
-.results-voor-beheer{
-    width: 200px;
-    height: 60px;
+.results-voor-beheer {
+    height: 50px;
     background-color: #FFD803;
+    font-size: 25px;
 }
 
 /* dashboard klanten */
