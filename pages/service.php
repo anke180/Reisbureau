@@ -23,7 +23,7 @@
         <div class="b3">
             <div class="inf5">
                 <h2>Klachten, en nu?</h2>
-                <h3>Neem gerust contact op met een van onze collega’s die kunnen je verder helpen met uw problemen/vragen.</h3>
+                <h3>Neem gerust contact op met een van onze collega’s die kunnen je verder helpen met uw problemen. <br> Ook als u vragen heeft kunt u bij ons terecht. <br>De gegevens van onze experts staan hieronder.</h3>
             </div>
             <div class="socmed">
             <h2>Social media</h2>

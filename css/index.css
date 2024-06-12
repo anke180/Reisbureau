@@ -147,7 +147,7 @@
 }
 .inf5{
     height: 250px;
-    width: 400px;
+    width: 440px;
     background-color: #272343;
     color: #ffffff;
     padding: 5px;
@@ -183,8 +183,8 @@
     padding: 5px;
 }
 .mailing{
-    height: auto;
-    width: 400px;
+    height: 265px;
+    width: 440px;
     background-color: #272343;
     color: #ffffff;
     padding: 5px;
@@ -577,10 +577,11 @@
 }
 /* einde register */
 
-/* main.jsx */
+/* animatie voor als de login gegevens niet kloppen */
 /* gemaakt door anke */
 .danger {
     position: absolute;
+    z-index: 99;
     top: 0;
     height: 75px;
     width: 100%;
@@ -622,7 +623,6 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 40px;
-    background-image: url(../images/achtergrond-bekijk-vakantie.jpg);
 }
 
 .naam-verblijf {
@@ -631,6 +631,7 @@
 
 h1 {
     font-size: 80px;
+    padding-bottom: 20px;
 }
 
 .plaatje-reacties-verblijf {
@@ -727,7 +728,6 @@ h1 {
     color: #FFFFFF;
     margin: 95px;
     font-size: 25px;
-    padding: 25px;
     border-radius: 3px;
     text-decoration: none;
 }
@@ -749,10 +749,29 @@ h1 {
 .hoofd-tekst-tabel {
     width: 200px;
     height: 60px;
+    color: #FFFFFF;
 }
 
 .results-voor-beheer{
     width: 200px;
     height: 60px;
     background-color: #FFD803;
+}
+
+/* dashboard klanten */
+/* gemaakt door anke */
+.background-tabel-klanten {
+    width: auto;
+    height: auto;
+    background-color: #272343;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.hoofd-tekst-tabel-klanten {
+
 }
