@@ -7,7 +7,6 @@
     $stmt->execute();
     $result_users = $stmt->fetchAll();
 
-
     $sql = "SELECT * 
     FROM verblijven";
     $stmt = $connection->prepare($sql);
@@ -40,19 +39,17 @@
                         <th>Rol-nummer</th>
                         <th>Voornaam</th>
                         <th>Achternaam</th>
-                        <th>Geboorte-datum</th>
-                        <th>Nationaliteit</th>
+                        <th>Details</th>
                     </tr>
 
                     <?php foreach($result_users as $row): ?>
                         <tr class='results-voor-beheer'>
                             <td> <?php echo $row['id']; ?> </td>
                             <td> <?php echo $row['email']; ?> </td>
-                            <td> <?php echo $row['rol']; ?> </td>
+                            <td> <?php echo $row['rol']; ?> </td> 
                             <td> <?php echo $row['voornaam']; ?> </td>
                             <td> <?php echo $row['achternaam']; ?> </td>
-                            <td> <?php echo $row['geboorte-datum']; ?> </td>
-                            <td> <?php echo $row['nationaliteit']; ?> </td>
+                            <td> <a href='dashboard-klanten-userdetails.php?id=<?php echo $row['id']; ?>'>details</a></td>
                         </tr>
                     <?php endforeach; ?>
                 </table>
@@ -81,8 +78,5 @@
                 </table>
             </div>
         </main>
-        <footer>
-
-        </footer>
     </body>
 </html>

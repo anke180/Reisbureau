@@ -10,7 +10,7 @@
     <body>
         <?php
             include "../include/nav.php";
-        ?>
+        ?>   
         <div class="background-picture">
             <div class="blok-inlog">
                 <form action='login_logic.php' name='login_logic' method='POST' >

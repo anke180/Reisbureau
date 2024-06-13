@@ -772,7 +772,7 @@ table, th, td {
 .background-tabel-klanten {
     width: auto;
     height: auto;
-    background-color: #272343;
+    background-color: #FFD803;
     padding: 60px;
     display: flex;
     flex-direction: row;
@@ -781,6 +781,14 @@ table, th, td {
     border-radius: 3px;
 }
 
+.hoofd-tekst-tabel-userdata{
+    color: #000000;
+}
+
 .hoofd-tekst-tabel-klanten {
+
+}
+
+.result-voor-klanten {
 
 }
