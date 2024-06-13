@@ -602,6 +602,104 @@ body{
     font-size: medium;
     color: #FFFFFF;
 }
+
+.img-vakantie{
+    height: 240px;
+    width: 260px;
+} 
+   
+
+
+@media only screen and (max-width: 815px){
+/* responsive iPadOD 14.7.1 */
+
+.row70{
+    flex-direction: column;
+
+}
+
+.vakantie-balk{
+    height: 300px;
+    width: 750px;
+ 
+}
+
+.vakantie-blok-wit{
+    height: 240px;
+    width: 225px;
+}
+
+.img-vakantie{
+    height: 240px;
+    width: 225px;
+}
+
+.vakantie-blok-blauw{
+    height: 240px;
+    width: 225px;
+}
+
+}
+
+@media only screen and (max-width: 430px){
+/* iPhone 12/13 Pro Max iOS 14.6 */
+/* nav */
+.head{
+    width: 100%;
+}
+
+.header{
+    width: 50%;
+}
+
+.logo-blok{
+    width: 15%;
+}
+
+.but1{
+    height: 40px;
+    width: 120px;
+}
+/* einde voor nav */
+
+
+.col30{
+    width: 100%;
+}
+.row70{
+    flex-direction: column;
+
+}
+
+.vakantie-balk{
+    height: 750px;
+    width: 350px;
+    flex-direction: column;
+}
+
+.een-vakantie-informatie{
+    width: 94%;
+}
+
+.vakantie-blok-wit{
+    height: 220px;
+    width: 250px;
+}
+
+.vakantie-blok-blauw{
+    height: 220px;
+    width: 250px;
+}
+
+.img-vakantie{
+    height: 220px;
+    width: 250px;
+}
+
+
+}
+
+
 /* einde zoekopdracht */
 
 /* login pagina */

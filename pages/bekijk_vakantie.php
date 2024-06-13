@@ -9,8 +9,8 @@
     <body>
         <header>
         <?php
-            include "../include/nav.php";
-            include "../include/conn.php";
+              include "../include/nav.php";
+            // include "../include/conn.php";
         ?>  
         </header>
         <main>
