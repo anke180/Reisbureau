@@ -38,7 +38,7 @@
                     <?php foreach($result_boeking as $row): ?>
                         <tr class='results-voor-beheer-boeking'>
                             <td> <?php echo $row['verblijven_id']; ?> </td>
-                            <td> <?php echo $row['dossier-id']; ?> </td>
+                            <td> <?php echo $row['dossier_id']; ?> </td>
                             <td> <?php echo $row['bankgegevens']; ?> </td>
                             <td> <a href='dashboard-beheer-boekingdetails.php?id=<?php echo $row['id']; ?>'>Booking details</a></td>
                         </tr>
@@ -47,7 +47,7 @@
             </div>
         </main>
         <footer>
-
+                
         </footer>
     </body>
 </html>
