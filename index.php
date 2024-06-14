@@ -18,8 +18,9 @@
 </head>
 <body>
 <?php
-    include "include/nav.php";
-?>
+        include "include/nav.php";
+        include "include/conn.php";
+?>   
 
        
 <div id='margin-background' class="achtergrond">   </div>
@@ -49,12 +50,21 @@
             </div>
             <div class="inf3">
                 <h3>Beoordelingen</h3>
-                <div class="inf4"></div>
-                <div class="inf4"></div>
-                <div class="inf4"></div>
-                <div class="inf4"></div>
-                <div class="inf4"></div>
+                <?php
+                    $stmt = $connection->query("SELECT * FROM verblijven");
+                    while ($row = $stmt->fetch()){ 
+                        echo "<div class='inf4'>";
+                            echo "<div class='beoordeling-row'>";
+                                echo $row  ['naam']."<br>\n"; 
+                                echo $row ['land-van-verblijf']."<br>\n"; 
+                                echo $row ['beoordeling']."<br>\n";
+                            echo "</div>";
+                             
+                        echo "</div>";
+                    }
+                ?>
             </div>
+
         </div>
     </div>
 </body>

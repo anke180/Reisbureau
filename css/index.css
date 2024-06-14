@@ -139,21 +139,38 @@ body{
  
 }
 .inf3{
-    height: 550px;
-    width: 50%;
+    height: 500px;
+    width: 32%;
     background-color: #FFD803;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     gap: 10px;
     padding: 10px;
-}
+}   
 .inf4{
-    height: 150px;
-    width: 40%;
+    height: 100px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     background-color: rgb(255, 255, 255);
+    border-radius: 13px;
 }
+
+.beoordeling-row{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+
+
 /* einde index */
 
 /* begin service gemaakt door Rens */
