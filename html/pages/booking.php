@@ -9,7 +9,8 @@
     <title>Reisbureau</title>
 </head>
 <body>
-    <div class="header">
+    <div class="head">
+    
 <div class="header">
             <div class="logo"></div>
             <a href="../index.php" class="but1">Home</a>
@@ -17,12 +18,15 @@
             <a href="" class="but1">Klantenservice</a>
             <a href="login.php" class="but1">Login</a>
         </div>
+</div>
+<div class="b4" id="mid">
 <div class="booking">
-<button onclick="setAmountOfGuests(); myFunction();" class="but1">Reizigers toevoegen</button>
 
     <form action='register_person.php' method="POST" id='registerform' class="form">
         <label>Hoeveel gasten?</label>
-        <input  type="number" id='amountGuests' name="aantal_gasten" placeholder="1">
+        <input  type="number" id='amountGuests' name="aantal_gasten" placeholder="1" class="but4" >
+        <a onclick="setAmountOfGuests();" class="but5">Reizigers toevoegen</a>
+
         <button type="submit" name="submit" value="submit" class="but3">Boeken</button>
     </form>
 </div>
