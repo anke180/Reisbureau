@@ -11,49 +11,36 @@
         <div class="header">
             <div class="logo"></div>
             <a href="../index.php" class="but1">Home</a>
-            <a href="service.php" class="but1">Klantenservice</a>
+            <a href="" class="but1">Bestemming</a>
+            <a href="" class="but1">Klantenservice</a>
             <a href="login.php" class="but1">Login</a>
         </div>
-        <div class="b1" id="bckgrnd">
-        </div>
-        <div class="b3">
-            <div class="inf5">
-                <h2>Klachten, en nu?</h2>
-                <h3>Neem gerust contact op met een van onze collega’s die kunnen je verder helpen met uw problemen/vragen.</h3>
-            </div>
-            <div class="socmed">
-            <h2>Social media</h2>
-            <h3>Instagram</h3>
-            <h3>Facebook</h3>
-            <h3>TikTok</h3>
-            </div>
-            <div class="mailing">
-            <h2>E-mails verzenden naar onze experts:</h2>
-                <div class="p1" id="hgt">
-                    <h3>Naam: Ruveyda Bal</h3>
-                    <h3>E-mail: 1197794@student.roc-nijmegen.nl</h3></div>
-                <div class="p2" id="hgt">
-                    <h3>Naam: Anke van Dommelen</h3>
-                    <h3>E-mail: 1208834@student.roc-nijmegen.nl</h3>
-                </div>
-                <div class="p3" id="hgt">
-                    <h3>Naam: Rens Peters</h3>
-                    <h3>E-mail: 1195839@student.roc-nijmegen.nl</h3>
-                </div>
-            </div>
-            <div class="numb">
-            <h2>Telefoonnummers:</h2>
-                <div class="p1" id="hgt">
-                    <h3>Naam: Ruveyda Bal</h3>
-                    <h3>Nummer: 06 48795818</h3></div>
-                <div class="p2" id="hgt">
-                    <h3>Naam: Anke van Dommelen</h3>
-                    <h3>Nummer: 06 20065856</h3>
-                </div>
-                <div class="p3" id="hgt">
-                    <h3>Naam: Rens Peters</h3>
-                    <h3>Nummer: 06 30613747</h3>
-                </div>
+        <div class="b1">
+            <div class="blok-inlog">
+                <form action='register_logic.php' name='register_logic' method='POST' >
+                    <div class="login-form">
+                        <div class="register-blok">
+                            <a class="hoofd-tekst">Register</a>
+                            <div class="email">
+                                <label class="tekst-colour">Email: </label>
+                                <input class="background" type="text" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="telefoonnummer">
+                                <label class="tekst-colour">Tel: </label>
+                                <input class="background" type="number" name="tel" placeholder="Telefoonnummer" required>
+                            </div>
+                            <div class="password">
+                                <label class="tekst-colour">Password: </label>
+                                <input class="background" type="password" name="password" placeholder="Password" required>
+                            </div>
+                            <div class="signin-blok">
+                                <div class="signin-button">
+                                    <input class="background tekst-colour" type="submit" value="Sign in">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

@@ -1,22 +1,21 @@
 <?php
-include 'conn.php';
+include '../include/conn.php';
 echo $_POST['aantal_gasten'];
 var_dump($_POST);
 
-for($i = 0; $i < $_POST['aantal_gasten']; $i++){
-    $sql = "INSERT INTO 'hoofdboeker' (voornaam, achternaam, email, geslacht, geboortedatum, adres, bankgegevens) VALUES (:voornaam, :achternaam, :email, :geslacht, :geboortedatum, :adres :bankgegevens)";
-    $stmt = $conn->prepare($sql);
+
+$sql = "INSERT INTO `hoofdboeker` ( `voornaam`, `achternaam`, `geboortedatum`, `email`, `geslacht`, `bankgegevens`, `adres`) VALUES (:voornaam, :achternaam, :geboortedatum, :email, :geslacht, :bankgegevens, :adres)";
+    $stmt = $connection->prepare($sql);
     $stmt->execute([
-        'voornaam' => $_POST['voornaam'],
-        'achternaam' => $_POST['achternaam'],
-        'email' => $_POST['email'],
-        'geslacht' => $_POST['geslacht'],
-        'geboortedatum' => $_POST['geboortedatum'],
-        'adres' => $_POST['adres'],
-        'bankgegevens' => $_POST['bankgegevens'],
-        'booking_id' => $_SESSION['booking_id']
+        'voornaam' => $_POST['voornaam0'],
+        'achternaam' => $_POST['achternaam0'],
+        'geboortedatum' => $_POST['geboortedatum0'],
+        'email' => $_POST['email0'],
+        'geslacht' => $_POST['geslacht0'],
+        'bankgegevens' => $_POST['bankgegevens0'],
+        'adres' => $_POST['adres0']
     ]);
-}
+
 
 
 ?>
