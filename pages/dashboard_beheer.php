@@ -49,7 +49,7 @@
                             <td> <?php echo $row['rol']; ?> </td> 
                             <td> <?php echo $row['voornaam']; ?> </td>
                             <td> <?php echo $row['achternaam']; ?> </td>
-                            <td> <a href='dashboard-klanten-userdetails.php?id=<?php echo $row['id']; ?>'>details</a></td>
+                            <td> <a href='dashboard-beheer-userdetails.php?id=<?php echo $row['id']; ?>'>details</a></td>
                         </tr>
                     <?php endforeach; ?>
                 </table>

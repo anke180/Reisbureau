@@ -767,7 +767,7 @@ table, th, td {
     font-size: 25px;
 }
 
-/* dashboard klanten */
+/* dashboard beheer userdetails */
 /* gemaakt door anke */
 .background-tabel-klanten {
     width: auto;
@@ -790,5 +790,27 @@ table, th, td {
 }
 
 .result-voor-klanten {
+
+}
+
+/* dashboard beheer boeking */
+/* gemaakt door Anke */
+.background-boeking {
+    width: auto;
+    height: auto;
+    background-color: #FFD803;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.hoofdtekst-tabel-boeking {
+    color: #000000;
+}
+
+.results-voor-beheer-boeking {
 
 }

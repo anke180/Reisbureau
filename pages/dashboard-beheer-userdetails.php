@@ -33,11 +33,13 @@
                         <th>Voornaam</th>
                         <th>Achternaam</th>
                         <th>Telefoonnummer</th>
-                        <th>Geboorte-datum</th>
+                        <th>geboorte_datum</th>
                         <th>Nationaliteit</th>
                         <th>Huisnummer</th>
                         <th>Postcode</th>
                         <th>Boeking details</th>
+                        <th>Update</th>
+                        <th>Delete</th>
                     </tr>
 
                     <?php foreach($result_users as $row): ?>
@@ -46,11 +48,13 @@
                             <td> <?php echo $row['voornaam']; ?> </td>
                             <td> <?php echo $row['achternaam']; ?> </td>
                             <td> <?php echo $row['telefoonnummer']; ?> </td>
-                            <td> <?php echo $row['geboorte-datum']; ?> </td>
+                            <td> <?php echo $row['geboorte_datum']; ?> </td>
                             <td> <?php echo $row['nationaliteit']; ?> </td>
                             <td> <?php echo $row['huisnummer']; ?> </td>
                             <td> <?php echo $row['postcode']; ?> </td>
-                            <td> <a href='dashboard-klanten-boeking.php?id=<?php echo $row['id']; ?>'>Booking details</a></td>
+                            <td> <a href='dashboard-beheer-boeking.php?id=<?php echo $row['id']; ?>'>Booking details</a></td>
+                            <td> <?php echo '<a href="dashboard-beheer-userdata-update.php?id='. $row['id'] . '">Update</a>'; ?></td>
+                            <td> <?php echo '<a href="dashboard-beheer-userdata-delete.php?id='. $userid . '">Delete</a>'; ?></td>
                         </tr>
                     <?php endforeach; ?>
                 </table>
