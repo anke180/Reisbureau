@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="inf3">
-                <h3>Beoordelingen</h3>
+                <h3>Onze top verblijven</h3>
                 <?php
                     $stmt = $connection->query("SELECT * FROM verblijven");
                     while ($row = $stmt->fetch()){ 
