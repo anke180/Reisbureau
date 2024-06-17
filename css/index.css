@@ -1,20 +1,11 @@
-body{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* hier begint de nav */
-.header{
-    height: 100px;
-    width: 100%;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;    
-}
-
+/* index pagina */
+/* gemaakt door Rens */
 .logo-blok{
     height: 100px;
     width: 30%;
@@ -24,11 +15,32 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px 0px 100px;
+}
+.logo-plaatje {
+    width: 240px;
+    height: 95px;
+}
 .but1{
     height: 50px;
-    width: 150px;
+    padding: 10px;
     background-color: #2D334A;
+    border-radius: 3px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,13 +49,165 @@ body{
     align-items: center;
     font-family: "Inter", sans-serif;
 }
-.b1{
-    height: 200px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-image: url("../images/pexels-photo-457882.jpeg");
+.but2{
+    color: rgb(201, 201, 201);
 }
-/* einde nav */
+#btn{
+    color: black;
+}
+.b1{
+    height: 700px;
+    width: 100%;
+    background-image: url(../images/pexels-photo-457882.jpeg);
+    background-size: 1536px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 800px;
+}
+#bckgrnd{
+    margin-top: -400px;
+}
+.none{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.inf{
+    height: 100px;
+    width: 80%;
+    background-color: grey;
+    padding: 10px;
+}
+#text{
+    height: 0;
+}
+.inf1{
+    height: 500px;
+    width: 20%;
+    background-color: #272343;
+}
+.b2{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+.b3{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.inf2{
+    height: 550px;
+    width: 30%;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #272343;
+    border-width: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+ 
+}
+.inf3{
+    height: 550px;
+    width: 50%;
+    background-color: #FFD803;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.inf4{
+    height: 150px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+}
+.inf5{
+    height: 250px;
+    width: 440px;
+    background-color: #272343;
+    color: #ffffff;
+    padding: 5px;
+}
+.dshb{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: "Inter", sans-serif;
+}
+.addloc{
+    height: 200px;
+    width: 70%;
+    background-color: #272343;
+    margin-top: 20px;
+    color: gray;
+}
+.cstmr{
+    height: 200px;
+    width: 40%;
+    background-color: #272343;
+    color: rgb(201, 201, 201);
+}
+.cmpny{
+    height: 200px;
+    width: 40%;
+    background-color: #FFD803;
+}
+.socmed{
+    height: 250px;
+    width: 400px;
+    background-color: #FFD803;
+    padding: 5px;
+}
+.mailing{
+    height: 265px;
+    width: 440px;
+    background-color: #272343;
+    color: #ffffff;
+    padding: 5px;
+    margin-top: 15px;
+}
+.numb{
+    height: 250px;
+    width: 400px;
+    background-color: #FFD803;
+    padding: 5px;
+    margin-top: 15px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px 0px 100px;
+    margin-top: 10px;
+}
+#hgt{
+    line-height: 1.5;
+}
+
 
 /* hier begint zoekopdracht */
 /* gemaakt door Ruveyda */
@@ -268,6 +432,7 @@ body{
 .tekst-bekijk-vakantie{
     font-size: medium;
     color: #FFFFFF;
+    text-decoration: none;
 }
 /* einde zoekopdracht */
 
@@ -279,7 +444,6 @@ body{
     background-repeat: no-repeat;
     background-image: url("../images/b51hm1au1uy21.jpg"); 
 }
-
 
 .login-form {
     height: auto;
@@ -299,6 +463,7 @@ body{
     margin-left: 650px;
     margin-top: 110px;
     margin-bottom: 30px;
+    border-radius: 3px;
 }
 
 .hoofd-tekst {
@@ -318,12 +483,14 @@ body{
     align-items: center;
     padding: 20px;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .background {
     background-color: #272343;
     color: #FFFFFF;
     border: none;
+    border-radius: 3px;
 }
 
 .password {
@@ -335,6 +502,7 @@ body{
     align-items: center;
     padding: 20px;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .login-signin {
@@ -343,6 +511,7 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    border-radius: 3px;
 }
 
 .signin {
@@ -353,6 +522,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .login2 {
@@ -363,6 +533,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    border-radius: 3px;
 }
 /* einde inlog */
 
@@ -379,6 +550,7 @@ body{
     margin-left: 220px;
     margin-top: 110px;
     margin-bottom: 30px;
+    border-radius: 3px;
 }
 
 .telefoonnummer {
@@ -390,6 +562,7 @@ body{
     align-items: center;
     padding: 20px;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .signin-button {
@@ -400,11 +573,244 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px; 
+    border-radius: 3px;
 }
 /* einde register */
 
-/* background-size: 1536px */
-
+/* animatie voor als de login gegevens niet kloppen */
+/* gemaakt door anke */
 .danger {
-    
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: #000000;
+    animation: displayNone;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+} 
+
+@keyframes displayNone {
+    0% {
+        display: flex;
+    }
+    90% {
+        display: flex;
+        opacity:1;
+    }
+    99%{
+        display: flex;
+        opacity: 0;
+    }
+    100%{
+        display: none;
+        opacity: 0;
+    }
+}
+
+/* bekijk vakantie pagina */
+/* gemaakt door anke */
+.informatie-verblijf {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px;
+}
+
+.naam-verblijf {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+.plaatje-reacties-verblijf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+
+}
+
+.reacties-verblijf {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-size: 18px;
+}
+
+.review1 {
+    height: auto;
+    background-color: #FFD803;
+    color: #000000;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.review2 {
+    height: auto;
+    background-color: #FFD803;
+    color: #000000;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.review3 {
+    height: auto;
+    background-color: #FFD803;
+    color: #000000;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.informatie-en-prijs-verblijf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.alle-informatie-verblijf {
+    padding: 25px;
+    color: #FFFFFF;
+    width: 500px;
+    height: 100%;
+    background-color: #272343;
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+.prijs-per-persoon-verblijf {
+    color: #000000;
+    width: 250px;
+    height: 100%;
+    background-color: #FFD803;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 3px;
+}
+
+.faciliteiten-lijst {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.boeken-knop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.boeken-verblijf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    background-color: #272343;
+    color: #FFFFFF;
+    margin: 95px;
+    font-size: 25px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* dashboard beheer pagina */
+/* gemaakt door Anke */
+.background-tabel {
+    width: auto;
+    height: auto;
+    background-color: #272343;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+.hoofd-tekst-tabel {
+    width: 200px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.results-voor-beheer {
+    height: 50px;
+    background-color: #FFD803;
+    font-size: 25px;
+}
+
+/* dashboard beheer userdetails */
+/* gemaakt door anke */
+.background-tabel-klanten {
+    width: auto;
+    height: auto;
+    background-color: #FFD803;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.hoofd-tekst-tabel-userdata{
+    color: #000000;
+}
+
+.hoofd-tekst-tabel-klanten {
+
+}
+
+.result-voor-klanten {
+
+}
+
+/* dashboard beheer boeking */
+/* gemaakt door Anke */
+.background-boeking {
+    width: auto;
+    height: auto;
+    background-color: #FFD803;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.hoofdtekst-tabel-boeking {
+    color: #000000;
+}
+
+.results-voor-beheer-boeking {
+
 }
