@@ -29,13 +29,25 @@ const setAmountOfGuests = () => {
         geboortedatumInput.type = 'date';
         geboortedatumInput.placeholder = 'Geboortedatum ' + i;
         geboortedatumInput.name = 'geboortedatum' + i; 
+
+        const geslachtInput = document.createElement('input');
+        geslachtInput.type = 'option';
+        geslachtInput.placeholder = 'geslacht ' + i;
+        geslachtInput.name = 'geslacht' + i; 
+
+        const bankgegevensInput = document.createElement('input');
+        bankgegevensInput.type = 'text';
+        bankgegevensInput.placeholder = 'banknummer ' + i;
+        bankgegevensInput.name = 'bankgegevens' + i; 
         
         
         
-        registerForm.appendChild(voornaamInput);
+        registerForm.appendChild( voornaamInput);
         registerForm.appendChild( achternaamInput);
-        registerForm.appendChild(adresInput);
+        registerForm.appendChild( adresInput);
         registerForm.appendChild( emailInput);
         registerForm.appendChild( geboortedatumInput);
+        registerForm.appendChild( geslachtInput);
+        registerForm.appendChild( bankgegevensInput);
     }
 }
