@@ -13,7 +13,7 @@
         <h1>Privacy Voorwaarden</h1>
         </div>
 </header>
-    <main>
+    <div class="main-footer">
         <section>
             <h2>1. Inleiding</h2>
             <p>Deze privacy voorwaarden beschrijven hoe ons bedrijf omgaat met uw persoonlijke gegevens en hoe wij deze beschermen.</p>
@@ -60,7 +60,7 @@
             <p>Email: privacy@bedrijf.nl</p>
             <p>Telefoon: +31 123 456 7890</p>
         </section>
-    </main>
+    </div>
     <footer>
         <p>&copy; 2024 Discover The World. Alle rechten voorbehouden.</p>
     </footer>

@@ -14,7 +14,7 @@
         </div>
 
     </header>
-    <main>
+    <div class="main-footer">
         <section>
             <h2>1. Inleiding</h2>
             <p>Welkom bij ons bedrijf. Deze algemene voorwaarden beschrijven de regels en voorschriften voor het gebruik van onze website.</p>
@@ -36,7 +36,7 @@
             <p>Het bedrijf behoudt zich het recht voor om deze voorwaarden op elk moment te wijzigen. Wij zullen u op de hoogte stellen van wijzigingen via onze website.</p>
         </section>
         <!-- Voeg hier meer secties toe zoals nodig -->
-    </main>
+    </div>
     <footer>
         <p>&copy; 2024 Discover The World. Alle rechten voorbehouden.</p>
     </footer>
