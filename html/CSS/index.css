@@ -311,3 +311,226 @@ body{
     align-items: center;
     
 }
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.container-row{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.container-col{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: flex-end;
+}
+ 
+.col30{
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.col70{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.container-om-col30{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+ 
+.filter-lijst{
+    height: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #272343;
+}
+ 
+.achtergrond{
+    background-image: url("../images/pexels-photo-457882.jpeg");
+    background-size: 1536px;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin-bottom: -100px;
+}
+ 
+.margin-background {
+    margin-top: -400;
+}
+ 
+.row70{
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.vakantie-balk{
+    height: 300px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFD803;
+    margin-top: 50px;
+}
+ 
+.vakantie-blok-wit{
+    height: 240px;
+    width: 260px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.vakantie-blok-blauw{
+    height: 240px;
+    width: 260px;
+    background-color: #E3F6F5;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.een-vakantie-informatie{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3F6F5;
+    margin-left: 15px;
+}
+ 
+.balk-verblijven{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #E3F6F5;
+}
+ 
+.balk-beordeling{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #E3F6F5;
+}
+ 
+.een-vlucht-informatie{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #E3F6F5;
+}
+ 
+.balk-tekst-hotel{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+ 
+.tekst-hotel{
+    height: 90%;
+    width: 90%;
+    font-size: medium;
+    color: #000000;
+}
+ 
+.balk-tekst-vlucht{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #E3F6F5;
+}
+ 
+.tekst-vlucht{
+    height: 82%;
+    font-size: medium;
+    color: #2D334A;
+    margin-left: 15px;
+}
+ 
+.balk-bekijk-vakantie{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3F6F5;
+}
+ 
+.bekijk-vakantie{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+ 
+.tekst-bekijk-vakantie{
+    font-size: medium;
+    color: #FFFFFF;
+    text-decoration: none;
+}

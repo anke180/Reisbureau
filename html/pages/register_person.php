@@ -42,7 +42,7 @@ $sql = "INSERT INTO `hoofdboeker` ( `voornaam`, `achternaam`, `geboortedatum`, `
     </div>
     <div class="b4" id="mid">
         <div class="pay">
-            <form action='////////////' method="POST" id='registerform' class="form">
+            <form action='paid.php' method="POST" id='registerform' class="form">
                 <label>Betaal met:</label>
                 <select name="bank" id="banks">
                     <option value="abnamro">ABN AMRO</option>
