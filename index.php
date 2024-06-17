@@ -1,39 +1,31 @@
 <?php
-    session_start();
-    if(isset($_SESSION['errormessage'])){
-        echo '<div class="danger">';
-            echo $_SESSION['errormessage'];
-        echo '</div>';
-        unset($_SESSION['errormessage']);
-    }
-?>
-
+    // session_start();
+    //     echo'div class="danger"';
+    //     if($_SESSION['errormessage']){
+    //         echo $_SESSION['errormessage'];
+    //     }
+    // echo'</div>';
+?> 
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
-        <title>Reisbureau home pagina</title>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <?php
-            include "./include/nav.php";
-        ?> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Reisbureau</title>
+</head>
+<body>
+<?php
+        include "include/nav.php";
+        include "include/conn.php";
+?>   
 
-    <div class="head">
-      
-        <div class="b1">
-            <div class="inf1">
-                <!-- Form voor de filter optie -->
-            </div>
-            <div class="none">
-                
-            </div>
-        </div>
-        
+       
+<div id='margin-background' class="achtergrond">   </div>
+       
+       
     </div>
     <div class="main">
         <div class="b2">
@@ -57,13 +49,22 @@
                 </div>
             </div>
             <div class="inf3">
-                <div class="inf4"></div>
-                <div class="inf4"></div>
-                <div class="inf4"></div>
-                <div class="inf4"></div>
-                <div class="inf4"></div>
-                <div class="inf4"></div>
+                <h3>Onze top verblijven</h3>
+                <?php
+                    $stmt = $connection->query("SELECT * FROM verblijven");
+                    while ($row = $stmt->fetch()){ 
+                        echo "<div class='inf4'>";
+                            echo "<div class='beoordeling-row'>";
+                                echo $row  ['naam']."<br>\n"; 
+                                echo $row ['land-van-verblijf']."<br>\n"; 
+                                echo $row ['beoordeling']."<br>\n";
+                            echo "</div>";
+                             
+                        echo "</div>";
+                    }
+                ?>
             </div>
+
         </div>
     </div>
 </body>
