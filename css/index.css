@@ -10,6 +10,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .header{
     height: 100px;
     width: 100%;
@@ -300,6 +301,9 @@ body{
     align-items: center;
    
 }
+
+/* zoekopdracht */
+/* gemaakt door Ruveyda */
 .container{
     height: 100%;
     width: 100%;
@@ -539,7 +543,8 @@ body{
     width: 264px;
 }
 
-/* hier begint de nav */
+/* Navigatie balk */
+/* gemaakt door Rens en Ruveyda */
 .head{
     display: flex;
     justify-content: center;
@@ -605,8 +610,8 @@ body{
 }
 /* einde nav */
 
-/* begin index gemaakt door Rens */
-
+/* Index pagina */
+/* gemaakt door Rens */
 .but2{
     color: rgb(201, 201, 201);
 }
@@ -623,7 +628,6 @@ body{
     justify-content: center;
     align-items: center;
     gap: 800px;
-    /* margin-bottom: -00px; */
 }
 #bckgrnd{
     margin-top: -400px;
@@ -723,10 +727,8 @@ body{
     margin-left: 15px;
 }
 
-
-/* einde index */
-
-/* begin service gemaakt door Rens */
+/* Service pagina */
+/* gemaakt door Rens */
 .inf5{
     height: 250px;
     width: 400px;
@@ -796,18 +798,13 @@ body{
     background-color: #FFD803;
     padding: 5px;
 }
-/* .main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px 100px 0px 100px;
-    margin-top: 10px;
-} */
 
 #hgt{
-    line-height: 0.5;}
+    line-height: 0.5;
+}
 
-/* gemaakt door Ruveyda service*/
+/* Service pagina 2 */
+/* gemaakt door Ruveyda */
 .container-service-email{
     height: auto;
     width: 100%;
@@ -945,9 +942,8 @@ body{
     border: none;
     color: #000;
 }
-/* einde service Ruveyda */
 
-/* hier begint zoekopdracht */
+/* Zoekopdracht pagina */
 /* gemaakt door Ruveyda */
 .container{
     height: 100%;
@@ -1177,12 +1173,10 @@ body{
     height: 240px;
     width: 260px;
 } 
-   
 
 
 @media only screen and (max-width: 815px){
 /* responsive iPadOD 14.7.1 */
-
 .row70{
     flex-direction: column;
 
@@ -1271,7 +1265,8 @@ body{
 
 /* einde zoekopdracht */
 
-/* begin footer gemaakt door Ruveyda */
+/* Footer pagina's */
+/* gemaakt Ruveyda */
 .balk-leeg{
     height: 100px;
     width: 100%;
@@ -1339,7 +1334,7 @@ footer p {
 }
 
 
-/* login pagina */
+/* Login pagina */
 /* gemaakt door anke */
 .background-picture {
     height: 670px;
@@ -1440,7 +1435,7 @@ footer p {
 }
 /* einde inlog */
 
-/* register pagina */
+/* Register pagina */
 /* gemaakt door anke */
 .register-blok {
     width: 570px;
@@ -1480,7 +1475,7 @@ footer p {
 }
 /* einde register */
 
-/* animatie voor als de login gegevens niet kloppen */
+/* Animatie voor als de login gegevens niet kloppen */
 /* gemaakt door anke */
 .danger {
     position: absolute;
@@ -1517,7 +1512,7 @@ footer p {
     }
 }
 
-/* bekijk vakantie pagina */
+/* Bekijk vakantie pagina */
 /* gemaakt door anke */
 .informatie-verblijf {
     height: auto;
@@ -1635,7 +1630,7 @@ h1 {
     text-decoration: none;
 }
 
-/* dashboard beheer pagina */
+/* Dashboard beheer pagina */
 /* gemaakt door Anke */
 .background-tabel {
     width: auto;
@@ -1682,7 +1677,7 @@ table, th, td {
     border-radius: 3px;
 }
 
-.hoofd-tekst-tabel-userdata{
+.hoofd-tekst-tabel-userdata {
     color: #000000;
 }
 
@@ -1698,12 +1693,12 @@ table, th, td {
     border-radius: 3px;
 }
 
-.hoofdtekst-tabel-boeking{
+.hoofdtekst-tabel-boeking {
     color: #000000;
 }
 
-
-/* footer */
+/* Footer */
+/* gemaakt door Anke */
 footer {
     padding: 0px;
 }
