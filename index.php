@@ -36,13 +36,13 @@
                 </div>
                 <div class="inf">
                 <h3 id="text">Betrouwbaarheid</h3>
-                <h6 id="text">Gegarandeerde Veiligheid en Beveiliging</h6>
-                <h6 id="text">Betrouwbare Reviews en Beoordelingen</h6>
+                <!-- <h6 id="text">Gegarandeerde Veiligheid en Beveiliging</h6> -->
+                <!-- <h6 id="text">Betrouwbare Reviews en Beoordelingen</h6> -->
                 </div>
                 <div class="inf">
                 <h3 id="text">Gebruiksvriendelijkheid</h3>
-                <h6 id="text">Eenvoudig Boeken</h6>
-                <h6 id="text">24/7 Klantenservice</h6>
+                <!-- <h6 id="text">Eenvoudig Boeken</h6> -->
+                <!-- <h6 id="text">24/7 Klantenservice</h6> -->
                 </div>
                 <div class="inf">
                 <h3 id="text">Extra Diensten</h3>
@@ -67,10 +67,10 @@
 
         </div>
     </div>
-                    
-<?php
-    include "include/footer.php"
-?>
+        <div class="balk-leeg"></div>
+        <?php
+            include "include/footer.php"
+        ?>
 
 </body>
 </html>

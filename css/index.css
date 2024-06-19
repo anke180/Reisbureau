@@ -414,6 +414,16 @@
     border: none;
     color: #000;
 }
+
+.tekst-service-info{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 /* einde service Ruveyda */
 
 /* hier begint zoekopdracht */
