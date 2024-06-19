@@ -61,8 +61,9 @@
             <p>Telefoon: +31 123 456 7890</p>
         </section>
     </div>
-    <footer>
+    
+    <div class="footer-footer">
         <p>&copy; 2024 Discover The World. Alle rechten voorbehouden.</p>
-    </footer>
+        </div>
 </body>
 </html>

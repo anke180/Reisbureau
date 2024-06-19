@@ -806,8 +806,9 @@ main ul li {
 }
 
 /* Footer-stijlen */
-footer {
+.footer-footer {
     text-align: center;
+    margin-top: 225px;
     padding: 20px 0;
     background-color: #333;
     color: #fff;

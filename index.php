@@ -68,9 +68,10 @@
         </div>
     </div>
         <div class="balk-leeg"></div>
-        <?php
-            include "include/footer.php"
-        ?>
+        <div class="container-footer">
+            <a href="pages/algemene-voorwaarden.php" >Algemene voorwaarden</a>
+            <a href="pages/privacy-voorwaarden.php" >Privacy voorwaarden</a>
+        </div>
 
 </body>
 </html>
