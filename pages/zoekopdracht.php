@@ -75,7 +75,7 @@
                                 echo "<div class='vakantie-balk' >";
                             
                                     echo "<div class='vakantie-blok-wit'>";
-                                    echo "<img src=" . $row ['image'] . " width='260px' height='240px'><br>\n";
+                                    echo "<img src=" . $row ['image'] . " class='img-vakantie'><br>\n";
                                     echo "</div>";
 
                                     echo "<div class='vakantie-blok-blauw'>";
@@ -89,7 +89,7 @@
                                             echo "</div>";
 
                                             echo "<div class='balk-tekst-hotel'>";
-                                                echo"<a class='tekst-hotel'>In dit verblijf hebben we een </a>";
+                                                echo"<a class='tekst-hotel'>In dit verblijf hebben we een: </a>";
                                             echo "</div>";
 
                                             echo "<div class='balk-verblijven'>";                                              
@@ -198,6 +198,10 @@
        
            <script src='../js/main.jsx'></script>
     </div>
+
+<?php
+    include "../include/footer.php"
+?>
 
 </body>
 </html>

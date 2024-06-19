@@ -6,6 +6,29 @@
 
 /* index pagina */
 /* gemaakt door Rens */
+
+/* hier begint de nav */
+.head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px 0px 100px;
+   
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+/*   */
 .logo-blok{
     height: 100px;
     width: 30%;
@@ -49,6 +72,10 @@
     align-items: center;
     font-family: "Inter", sans-serif;
 }
+/* einde nav */
+
+/* begin index gemaakt door Rens */
+
 .but2{
     color: rgb(201, 201, 201);
 }
@@ -58,13 +85,14 @@
 .b1{
     height: 700px;
     width: 100%;
-    background-image: url(../images/pexels-photo-457882.jpeg);
+    background-image: url(/images/pexels-photo-457882.jpeg);
     background-size: 1536px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 800px;
+    /* margin-bottom: -00px; */
 }
 #bckgrnd{
     margin-top: -400px;
@@ -84,8 +112,12 @@
     height: 0;
 }
 .inf1{
-    height: 500px;
-    width: 20%;
+    height: auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #272343;
 }
 .b2{
@@ -111,10 +143,9 @@
     justify-content: center;
     font-family: "Inter", sans-serif;
     margin-top: 20px;
-    margin-bottom: 50px;
 }
 .inf2{
-    height: 550px;
+    height: 650px;
     width: 30%;
     background-color: #ffffff;
     border-style: solid;
@@ -130,24 +161,44 @@
  
 }
 .inf3{
-    height: 550px;
-    width: 50%;
+    height: 500px;
+    width: 32%;
     background-color: #FFD803;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     gap: 10px;
     padding: 10px;
-}
+}   
 .inf4{
-    height: 150px;
-    width: 40%;
+    height: 100px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     background-color: rgb(255, 255, 255);
+    border-radius: 13px;
 }
+
+.beoordeling-row{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+
+
+/* einde index */
+
+/* begin service gemaakt door Rens */
 .inf5{
     height: 250px;
-    width: 440px;
+    width: 400px;
     background-color: #272343;
     color: #ffffff;
     padding: 5px;
@@ -177,37 +228,193 @@
     background-color: #FFD803;
 }
 .socmed{
-    height: 250px;
-    width: 400px;
+    height: 300px;
+    width: 488px;
     background-color: #FFD803;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .mailing{
-    height: 265px;
-    width: 440px;
+    height: 300px;
+    width: 488px;
     background-color: #272343;
     color: #ffffff;
     padding: 5px;
-    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.tekst-blok-service{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+
 .numb{
-    height: 250px;
-    width: 400px;
+    height: 300px;
+    width: 488px;
     background-color: #FFD803;
     padding: 5px;
-    margin-top: 15px;
 }
-.main{
+/* .main{
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 0px 100px 0px 100px;
     margin-top: 10px;
-}
+} */
+
 #hgt{
-    line-height: 1.5;
+    line-height: 0.5;}
+
+/* gemaakt door Ruveyda service*/
+.container-service-email{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+.blok-email{
+    height: 500px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
 }
 
+.mail-blok{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFD803;
+}
+
+.tekst-mail-sturen-balk{
+    height: 80px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.tekst-mail-sturen{
+    height: 100%;
+    width: 100%;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.blok-lang-mail{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.blok-klein-mail{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.balk-groot-mail{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.balk-mail{
+    height: 80%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #272343;
+}
+
+.blok-send{
+    height: 60%;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #272343;
+}
+
+.blok-tekst-mail{
+    height: 80%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+}
+
+.mail{
+    height: 100%;
+    width: 100%;
+    background-color: #272343;
+    border: none;
+    color: #FFFFFF;
+}
+
+.send{
+    height: 50%;
+    width: 50%;
+    background-color: #272343;
+    /* border: none; */
+    border-color: #000000;
+    color: #FFFFFF;
+}
+
+.tekst{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #000;
+}
+/* einde service Ruveyda */
 
 /* hier begint zoekopdracht */
 /* gemaakt door Ruveyda */
@@ -434,7 +641,172 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+
+.img-vakantie{
+    height: 240px;
+    width: 260px;
+} 
+   
+
+
+@media only screen and (max-width: 815px){
+/* responsive iPadOD 14.7.1 */
+
+.row70{
+    flex-direction: column;
+
+}
+
+.vakantie-balk{
+    height: 300px;
+    width: 750px;
+ 
+}
+
+.vakantie-blok-wit{
+    height: 240px;
+    width: 225px;
+}
+
+.img-vakantie{
+    height: 240px;
+    width: 225px;
+}
+
+.vakantie-blok-blauw{
+    height: 240px;
+    width: 225px;
+}
+
+}
+
+@media only screen and (max-width: 430px){
+/* iPhone 12/13 Pro Max iOS 14.6 */
+/* nav */
+.head{
+    width: 100%;
+}
+
+.header{
+    width: 50%;
+}
+
+.logo-blok{
+    width: 15%;
+}
+
+.but1{
+    height: 40px;
+    width: 120px;
+}
+/* einde voor nav */
+
+
+.col30{
+    width: 100%;
+}
+.row70{
+    flex-direction: column;
+
+}
+
+.vakantie-balk{
+    height: 750px;
+    width: 350px;
+    flex-direction: column;
+}
+
+.een-vakantie-informatie{
+    width: 94%;
+}
+
+.vakantie-blok-wit{
+    height: 220px;
+    width: 250px;
+}
+
+.vakantie-blok-blauw{
+    height: 220px;
+    width: 250px;
+}
+
+.img-vakantie{
+    height: 220px;
+    width: 250px;
+}
+
+
+}
+
 /* einde zoekopdracht */
+
+/* begin footer gemaakt door Ruveyda */
+.balk-leeg{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-footer{
+    background-color: #DCDCDC;
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Main-content-stijlen */
+.main-footer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+main p, main ul {
+    margin: 10px 0;
+}
+
+main ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer-stijlen */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
 
 /* login pagina */
 /* gemaakt door anke */
@@ -767,7 +1139,7 @@ table, th, td {
     font-size: 25px;
 }
 
-/* dashboard beheer userdetails */
+/* dashboard klanten */
 /* gemaakt door anke */
 .background-tabel-klanten {
     width: auto;
@@ -783,34 +1155,4 @@ table, th, td {
 
 .hoofd-tekst-tabel-userdata{
     color: #000000;
-}
-
-.hoofd-tekst-tabel-klanten {
-
-}
-
-.result-voor-klanten {
-
-}
-
-/* dashboard beheer boeking */
-/* gemaakt door Anke */
-.background-boeking {
-    width: auto;
-    height: auto;
-    background-color: #FFD803;
-    padding: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-}
-
-.hoofdtekst-tabel-boeking {
-    color: #000000;
-}
-
-.results-voor-beheer-boeking {
-
 }
