@@ -1,77 +1,51 @@
-<?php
-    // session_start();
-    //     echo'div class="danger"';
-    //     if($_SESSION['errormessage']){
-    //         echo $_SESSION['errormessage'];
-    //     }
-    // echo'</div>';
-?> 
-
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<<<< Temporary merge branch 1
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="CSS/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Reisbureau</title>
 </head>
 <body>
-<?php
-        include "include/nav.php";
-        include "include/conn.php";
-?>   
-
-       
-<div id='margin-background' class="achtergrond">   </div>
-       
-       
-    </div>
-    <div class="main">
-        <div class="b2">
-            <div class="inf2">
-                <h2>Waarom kies je voor .....?</h2>
-                <div class="inf">
-                <h3 id="text">Unieke voordelen en aanbiedingen</h3>
-                </div>
-                <div class="inf">
-                <h3 id="text">Betrouwbaarheid</h3>
-                <h6 id="text">Gegarandeerde Veiligheid en Beveiliging</h6>
-                <h6 id="text">Betrouwbare Reviews en Beoordelingen</h6>
-                </div>
-                <div class="inf">
-                <h3 id="text">Gebruiksvriendelijkheid</h3>
-                <h6 id="text">Eenvoudig Boeken</h6>
-                <h6 id="text">24/7 Klantenservice</h6>
-                </div>
-                <div class="inf">
-                <h3 id="text">Extra Diensten</h3>
-                </div>
-            </div>
-            <div class="inf3">
-                <h3>Onze top verblijven</h3>
-                <?php
-                    $stmt = $connection->query("SELECT * FROM verblijven");
-                    while ($row = $stmt->fetch()){ 
-                        echo "<div class='inf4'>";
-                            echo "<div class='beoordeling-row'>";
-                                echo $row  ['naam']."<br>\n"; 
-                                echo $row ['land-van-verblijf']."<br>\n"; 
-                                echo $row ['beoordeling']."<br>\n";
-                            echo "</div>";
-                             
-                        echo "</div>";
-                    }
-                ?>
-            </div>
-
+    <div class="head">
+        <div class="header">
+            <div class="logo"></div>
+            <a href="" class="but1">Home</a>
+            <a href="" class="but1">Bestemming</a>
+            <a href="" class="but1">Klantenservice</a>
+            <a href="" class="but1">Login</a>
         </div>
+        <div class="b1">
+            <div class="inf1">
+                <!-- Form voor de filter optie -->
+            </div>
+            <div class="none">
+            </div>
+        </div>
+        <div class="b2"></div>
     </div>
-                    
-<?php
-    include "include/footer.php"
-?>
-
 </body>
-</html>
+=========
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <?php
+                include 'include/nav.php'
+            ?>
+        </header>
+        <main>
 
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+>>>>>>>>> Temporary merge branch 2
+</html>
