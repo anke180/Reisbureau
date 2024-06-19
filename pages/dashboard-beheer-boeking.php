@@ -32,7 +32,6 @@
                         <th>Verblijven ID</th>
                         <th>Dossier ID</th>
                         <th>Bankgegevens</th>
-                        <th>Details boeking</th>
                     </tr>
 
                     <?php foreach($result_boeking as $row): ?>
@@ -40,7 +39,6 @@
                             <td> <?php echo $row['verblijven_id']; ?> </td>
                             <td> <?php echo $row['dossier_id']; ?> </td>
                             <td> <?php echo $row['bankgegevens']; ?> </td>
-                            <td> <a href='dashboard-beheer-boekingdetails.php?id=<?php echo $row['id']; ?>'>Booking details</a></td>
                         </tr>
                     <?php endforeach; ?>
                 </table>
