@@ -22,11 +22,14 @@
         <label>Hoeveel gasten?</label>
         <input  type="number" id='amountGuests' name="aantal_gasten" placeholder="1" class="but4" >
         <a onclick="setAmountOfGuests();" class="but3">Reizigers toevoegen</a>
-
+ 
         <button type="submit" name="submit" value="submit" class="but3">Boeken</button>
     </form>
 </div>
 <br>
 </div>
+    <!-- <?php
+        include "../include/footer.php"
+    ?> -->
 </body>
 </html>

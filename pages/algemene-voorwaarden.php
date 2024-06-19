@@ -7,13 +7,13 @@
     <title>Algemenevoorwaarden</title>
     <link rel="stylesheet" href="../css/index.css">
 </head>
-<body>  
-<header>
-    <div class="balk-leeg">
-        <h1>Algemene Voorwaarden</h1>
+<body>      
+    <header>
+        <div class="balk-leeg">
+            <h1>Algemene Voorwaarden</h1>
         </div>
-
     </header>
+
     <div class="main-footer">
         <section>
             <h2>1. Inleiding</h2>
@@ -37,9 +37,9 @@
         </section>
         <!-- Voeg hier meer secties toe zoals nodig -->
     </div>
-    <footer>
+    <div class="footer-footer">
         <p>&copy; 2024 Discover The World. Alle rechten voorbehouden.</p>
-    </footer>
+    </div>
 </body>
 </html>
 
