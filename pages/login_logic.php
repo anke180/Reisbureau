@@ -15,12 +15,20 @@
     $stmt->execute(['email' => $email, 'pass' => $password]);
     $user = $stmt->fetch();
     // var_dump($user);
-
-    if($user["rol"] == 1){
-        header("Location: dashboard_beheer.php");
-    } else {
-        header("Location: index.php");
+    if($user){
+        if($user["rol"] == 1){
+            $_SESSION['id'] = $user['id'];
+            header("Location: dashboard_beheer.php");
+        } else{
+            $_SESSION['id'] = $user['id'];
+            header("Location: ../index.php");
+        }
     }
+    else{
+        $_SESSION['errormessage'] = 'De ingevulde gegevens zijn niet juist';
+        header("Location: ../index.php");
+    }
+
 
     // if (!$email) {
     //     header("Location: login.php");

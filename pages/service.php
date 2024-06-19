@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,55 +14,65 @@
        
             <div id='margin-background' class="achtergrond"></div>
      
-
+ 
             </div>
             <div class="b3">
                 <div class="mailing">
                     <h2 class="tekst-blok-service">Klachten, en nu?</h2>
                     <h3 class="tekst-blok-service">Neem gerust contact op met een van onze collega’s die kunnen je verder helpen met uw problemen/vragen.</h3>
                 </div>
-
+ 
                 <div class="socmed">
                     <div class="tekst-blok-service">
-                        <h2>Social media</h2>
-                        <h3>Instagram</h3>
-                        <h3>Facebook</h3>
-                        <h3>TikTok</h3>
+                        <div class="tekst-service-info">
+                            <h2>Social media</h2>
+                        </div>
+                        <div class="tekst-service-info">
+                            <h3>Instagram</h3>
+                        </div>
+                        <div class="tekst-service-info">
+                            <h3>Facebook</h3>
+                        </div>
+                        <div class="tekst-service-info">
+                            <h3>TikTok</h3>
+                        </div>
                     </div>
                 </div>
-
+ 
                 <div class="mailing">
                     <h2 class="tekst-blok-service">E-mails verzenden naar onze experts:</h2>
-                        <div class="p1" id="hgt">
+                       <div class="tekst-service-info">
                             <h3>Naam: Ruveyda Bal</h3>
                             <h3>E-mail: 1197794@student.roc-nijmegen.nl</h3>
                         </div>
-                        <div class="p1" id="hgt">
+                        <div class="tekst-service-info">
                             <h3>Naam: Anke van Dommelen</h3>
                             <h3>E-mail: 1208834@student.roc-nijmegen.nl</h3>
                         </div>
-                        <div class="p1" id="hgt">
+                        <div class="tekst-service-info">
                             <h3>Naam: Rens Peters</h3>
                             <h3>E-mail: 1195839@student.roc-nijmegen.nl</h3>
                         </div>
                 </div>
                 <div class="numb">
+                <div class="tekst-service-info">
                     <h2>Telefoonnummers:</h2>
-                        <div class="p1" id="hgt">
+                </div>
+                    <div class="tekst-service-info">
                             <h3>Naam: Ruveyda Bal</h3>
                             <h3>Nummer: 06 48795818</h3></div>
-                        <div class="p2" id="hgt">
+                        <div class="tekst-service-info">
                             <h3>Naam: Anke van Dommelen</h3>
                             <h3>Nummer: 06 20065856</h3>
                         </div>
-                        <div class="p3" id="hgt">
+                        <div class="tekst-service-info">
                             <h3>Naam: Rens Peters</h3>
                             <h3>Nummer: 06 30613747</h3>
                         </div>
                 </div>
             </div>
         </div>
-
+ 
         <div class="container-service-email">
           <!-- <form action='service-verstuur-mail.php' name='service-verstuur-mail' method='POST'> -->
             <div class="blok-email">
@@ -75,7 +84,7 @@
                         <div class="blok-klein-mail">
                             <div class="balk-groot-mail">
                                 <div class="balk-mail">
-                                <input class='mail'  type='text' name='email' placeholder='email'> 
+                                <input class='mail'  type='text' name='email' placeholder='email'>
                                 </div>
                             </div>
                             <div class="balk-groot-mail">
@@ -86,17 +95,17 @@
                         </div>
                         <div class="blok-klein-mail">
                             <div class="blok-tekst-mail">
-                                <input class='tekst' type='text' name='tekst' placeholder='uw vraag.....'> 
+                                <input class='tekst' type='text' name='tekst' placeholder='uw vraag.....'>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-      
+     
         <?php
             include "../include/footer.php"
         ?>
-
+ 
 </body>
 </html>

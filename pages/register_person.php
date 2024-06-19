@@ -15,9 +15,6 @@ $sql = "INSERT INTO `hoofdboeker` ( `voornaam`, `achternaam`, `geboortedatum`, `
         'bankgegevens' => $_POST['bankgegevens0'],
         'adres' => $_POST['adres0']
     ]);
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +28,7 @@ $sql = "INSERT INTO `hoofdboeker` ( `voornaam`, `achternaam`, `geboortedatum`, `
 </head>
 <body>
 <div class="head">
-    
+   
     <div class="header">
                 <div class="logo"></div>
                 <a href="../index.php" class="but1">Home</a>
