@@ -72,7 +72,7 @@
                             echo "</div>";
                         echo "</div>";
                         echo "<div class='boeken-knop'>";
-                            echo "<a href='boeken.php' class='boeken-verblijf'>Boeken vakantie</a>";
+                            echo "<a href='booking.php' class='boeken-verblijf'>Boeken vakantie</a>";
                         echo "</div>";
                     echo "</div>"; 
                 }

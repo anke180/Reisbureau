@@ -3,34 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script src="../js/booking.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Reisbureau</title>
 </head>
 <body>
-<?php
+    <?php 
         include "../include/nav.php";
-        include "../include/conn.php";
-
-        session_start();
-            
-        $gebruikersnaam = $_POST["gebruikersnaam"];
-        $wachtwoord = $_POST["wachtwoord"];
-        $email = $_POST["mail"];
-
-
-        $stmt = $connection->prepare("INSERT INTO users (email, wachtwoord, gebruikersnaam) VALUES(:email, :wachtwoord, :gebruikersnaam)");
-        $stmt->bindParam(":gebruikersnaam", $gebruikersnaam);
-        $stmt->bindParam(":wachtwoord", $wachtwoord);
-        $stmt->bindParam(":email", $email);
-        $stmt->execute();
-
-        header("Location: ../login.php");
-    ?> 
-
-
-    
-    <?php
-        include "../include/footer.php"
     ?>
-
+    <div class="head">
+   
+</div>
+<div class="b4" id="mid">
+<div class="booking">
+ 
+    <form action='register_person.php' method="POST" id='registerform' class="form">
+        <label>Hoeveel gasten?</label>
+        <input  type="number" id='amountGuests' name="aantal_gasten" placeholder="1" class="but4" >
+        <a onclick="setAmountOfGuests();" class="but3">Reizigers toevoegen</a>
+ 
+        <button type="submit" name="submit" value="submit" class="but3">Boeken</button>
+    </form>
+</div>
+<br>
+</div>
+    <!-- <?php
+        include "../include/footer.php"
+    ?> -->
 </body>
 </html>
