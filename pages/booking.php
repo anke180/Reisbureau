@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php
+    <?php
         include "../include/nav.php";
         include "../include/conn.php";
 
@@ -25,8 +25,6 @@
 
         header("Location: ../login.php");
     ?> 
-
-
     
     <?php
         include "../include/footer.php"

@@ -1139,8 +1139,6 @@ table, th, td {
     font-size: 25px;
 }
 
-/* dashboard klanten */
-/* gemaakt door anke */
 .background-tabel-klanten {
     width: auto;
     height: auto;
@@ -1155,4 +1153,26 @@ table, th, td {
 
 .hoofd-tekst-tabel-userdata{
     color: #000000;
+}
+
+.background-boeking {
+    width: auto;
+    height: auto;
+    background-color: #FFD803;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.hoofdtekst-tabel-boeking{
+    color: #000000;
+}
+
+
+/* footer */
+footer {
+    padding: 0px;
 }
