@@ -36,7 +36,7 @@
         <!-- informatie via database -->
         
         <?php
-             $stmt = $connection->query("SELECT * FROM verblijven  ");
+            $stmt = $connection->query("SELECT * FROM verblijven  ");
             while ($row = $stmt->fetch()){ 
 
                 echo "<div class='container-col'>";
@@ -85,39 +85,8 @@
                 echo "</div>";
          
 
-                                 }
-                            ?>
-                            <!-- hier komt de naam hotel + beooordeling hotel + informatie vakantieplek -->
-
-                        
-
-                        <!-- <div class="vakantie-blok-blauw">
-                            <div class="een-vlucht-informatie">
-
-                                <div class="balk-tekst-vlucht">
-
-                                    <a class="tekst-vlucht">heir komt een stuk tekst over de vlucht te staan</a>
-                                </div>
-
-                                <div class="balk-bekijk-vakantie">
-
-                                    <div class="bekijk-vakantie">
-
-                                        <a class="tekst-bekijk-vakantie">Bekijk vakantie</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                                
-                        </div> -->
-
-
-
-                        
-                    
-
-           
-
+            }
+        ?>
         
     </div>
    

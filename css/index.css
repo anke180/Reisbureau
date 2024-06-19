@@ -1,12 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    margin: 0;
-    padding: 0;
+/* index pagina */
+/* gemaakt door Rens */
+
+/* hier begint de nav */
+.head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px 0px 100px;
+   
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+/*   */
+.logo-blok{
+    height: 100px;
+    width: 30%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .header{
     height: 100px;
@@ -17,12 +47,17 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    position: relative;
 }
 .head{
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 0px 100px 0px 100px;
+}
+.logo-plaatje {
+    width: 240px;
+    height: 95px;
 }
 .but1{
     height: 50px;
@@ -37,6 +72,16 @@ body{
     align-items: center;
     font-family: "Inter", sans-serif;
 }
+/* einde nav */
+
+/* begin index gemaakt door Rens */
+
+.but2{
+    color: rgb(201, 201, 201);
+}
+#btn{
+    color: black;
+}
 .b1{
     height: 700px;
     width: 100%;
@@ -47,37 +92,732 @@ body{
     justify-content: center;
     align-items: center;
     gap: 800px;
+    /* margin-bottom: -00px; */
+}
+#bckgrnd{
+    margin-top: -400px;
 }
 .none{
     height: 100px;
     width: 100px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
+.inf{
+    height: 100px;
+    width: 80%;
+    background-color: grey;
+    padding: 10px;
+}
+#text{
+    height: 0;
 }
 .inf1{
-    height: 300px;
-    width: 200px;
+    height: auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #272343;
 }
 .b2{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+.b3{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+}
+.inf2{
+    height: 650px;
+    width: 30%;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #272343;
+    border-width: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+ 
+}
+.inf3{
+    height: 500px;
+    width: 32%;
+    background-color: #FFD803;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}   
+.inf4{
     height: 100px;
-    width: 100px;
-    background-color: black;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+}
+
+.beoordeling-row{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
 }
 
 
+/* einde index */
+
+/* begin service gemaakt door Rens */
+.inf5{
+    height: 250px;
+    width: 400px;
+    background-color: #272343;
+    color: #ffffff;
+    padding: 5px;
+}
+.dshb{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: "Inter", sans-serif;
+}
+.addloc{
+    height: 200px;
+    width: 70%;
+    background-color: #272343;
+    margin-top: 20px;
+    color: gray;
+}
+.cstmr{
+    height: 200px;
+    width: 40%;
+    background-color: #272343;
+    color: rgb(201, 201, 201);
+}
+.cmpny{
+    height: 200px;
+    width: 40%;
+    background-color: #FFD803;
+}
+.socmed{
+    height: 300px;
+    width: 488px;
+    background-color: #FFD803;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mailing{
+    height: 300px;
+    width: 488px;
+    background-color: #272343;
+    color: #ffffff;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tekst-blok-service{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.numb{
+    height: 300px;
+    width: 488px;
+    background-color: #FFD803;
+    padding: 5px;
+}
+/* .main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px 0px 100px;
+    margin-top: 10px;
+} */
+
+#hgt{
+    line-height: 0.5;}
+
+/* gemaakt door Ruveyda service*/
+.container-service-email{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+.blok-email{
+    height: 500px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.mail-blok{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFD803;
+}
+
+.tekst-mail-sturen-balk{
+    height: 80px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.tekst-mail-sturen{
+    height: 100%;
+    width: 100%;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.blok-lang-mail{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.blok-klein-mail{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.balk-groot-mail{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.balk-mail{
+    height: 80%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #272343;
+}
+
+.blok-send{
+    height: 60%;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #272343;
+}
+
+.blok-tekst-mail{
+    height: 80%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+}
+
+.mail{
+    height: 100%;
+    width: 100%;
+    background-color: #272343;
+    border: none;
+    color: #FFFFFF;
+}
+
+.send{
+    height: 50%;
+    width: 50%;
+    background-color: #272343;
+    /* border: none; */
+    border-color: #000000;
+    color: #FFFFFF;
+}
+
+.tekst{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #000;
+}
+/* einde service Ruveyda */
+
+/* hier begint zoekopdracht */
+/* gemaakt door Ruveyda */
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-row{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-col{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: flex-end;
+}
+
+.col30{
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col70{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-om-col30{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.filter-lijst{
+    height: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #272343;
+}
+
+.achtergrond{
+    background-image: url("../images/pexels-photo-457882.jpeg");
+    background-size: 1536px;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin-bottom: -100px;
+}
+
+.margin-background {
+    margin-top: -400; 
+}
+
+.row70{
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.vakantie-balk{
+    height: 300px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFD803;
+    margin-top: 50px;
+}
+
+.vakantie-blok-wit{
+    height: 240px;
+    width: 260px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.vakantie-blok-blauw{
+    height: 240px;
+    width: 260px;
+    background-color: #E3F6F5;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.een-vakantie-informatie{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3F6F5;
+    margin-left: 15px;
+}
+
+.balk-verblijven{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #E3F6F5;
+}
+
+.balk-beordeling{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #E3F6F5;
+}
+
+.een-vlucht-informatie{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #E3F6F5;
+}
+
+.balk-tekst-hotel{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.tekst-hotel{
+    height: 90%;
+    width: 90%;
+    font-size: medium;
+    color: #000000;
+}
+
+.balk-tekst-vlucht{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #E3F6F5;
+}
+
+.tekst-vlucht{
+    height: 82%;
+    font-size: medium;
+    color: #2D334A;
+    margin-left: 15px;
+}
+
+.balk-bekijk-vakantie{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3F6F5;
+}
+
+.bekijk-vakantie{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.tekst-bekijk-vakantie{
+    font-size: medium;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.img-vakantie{
+    height: 240px;
+    width: 260px;
+} 
+   
 
 
+@media only screen and (max-width: 815px){
+/* responsive iPadOD 14.7.1 */
+
+.row70{
+    flex-direction: column;
+
+}
+
+.vakantie-balk{
+    height: 300px;
+    width: 750px;
+ 
+}
+
+.vakantie-blok-wit{
+    height: 240px;
+    width: 225px;
+}
+
+.img-vakantie{
+    height: 240px;
+    width: 225px;
+}
+
+.vakantie-blok-blauw{
+    height: 240px;
+    width: 225px;
+}
+
+}
+
+@media only screen and (max-width: 430px){
+/* iPhone 12/13 Pro Max iOS 14.6 */
+/* nav */
+.head{
+    width: 100%;
+}
+
+.header{
+    width: 50%;
+}
+
+.logo-blok{
+    width: 15%;
+}
+
+.but1{
+    height: 40px;
+    width: 120px;
+}
+/* einde voor nav */
 
 
+.col30{
+    width: 100%;
+}
+.row70{
+    flex-direction: column;
+
+}
+
+.vakantie-balk{
+    height: 750px;
+    width: 350px;
+    flex-direction: column;
+}
+
+.een-vakantie-informatie{
+    width: 94%;
+}
+
+.vakantie-blok-wit{
+    height: 220px;
+    width: 250px;
+}
+
+.vakantie-blok-blauw{
+    height: 220px;
+    width: 250px;
+}
+
+.img-vakantie{
+    height: 220px;
+    width: 250px;
+}
 
 
+}
 
+/* einde zoekopdracht */
+
+/* begin footer gemaakt door Ruveyda */
+.balk-leeg{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-footer{
+    background-color: #DCDCDC;
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Main-content-stijlen */
+.main-footer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+main p, main ul {
+    margin: 10px 0;
+}
+
+main ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer-stijlen */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
 
 
 /* login pagina */
 /* gemaakt door anke */
-.login-form {
+.background-picture {
+    height: 670px;
     width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../images/b51hm1au1uy21.jpg"); 
+}
+
+.login-form {
     height: auto;
     display: flex;
     flex-direction: column;
@@ -89,12 +829,13 @@ body{
     height: 420px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background-color: rgba(255, 225, 0, 0.807);
-    margin-left: 400px;
-    margin-top: 50px;
+    margin-left: 650px;
+    margin-top: 110px;
     margin-bottom: 30px;
+    border-radius: 3px;
 }
 
 .hoofd-tekst {
@@ -114,12 +855,14 @@ body{
     align-items: center;
     padding: 20px;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .background {
     background-color: #272343;
     color: #FFFFFF;
     border: none;
+    border-radius: 3px;
 }
 
 .password {
@@ -131,6 +874,7 @@ body{
     align-items: center;
     padding: 20px;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .login-signin {
@@ -139,6 +883,7 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    border-radius: 3px;
 }
 
 .signin {
@@ -149,6 +894,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .login2 {
@@ -159,21 +905,24 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    border-radius: 3px;
 }
+/* einde inlog */
 
 /* register pagina */
 /* gemaakt door anke */
 .register-blok {
-    width: 560px;
+    width: 570px;
     height: 475px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 225, 0, 0.807);
-    margin-left: 400px;
-    margin-top: 50px;
+    margin-left: 220px;
+    margin-top: 110px;
     margin-bottom: 30px;
+    border-radius: 3px;
 }
 
 .telefoonnummer {
@@ -185,6 +934,7 @@ body{
     align-items: center;
     padding: 20px;
     margin: 20px;
+    border-radius: 3px;
 }
 
 .signin-button {
@@ -195,4 +945,214 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px; 
+    border-radius: 3px;
+}
+/* einde register */
+
+/* animatie voor als de login gegevens niet kloppen */
+/* gemaakt door anke */
+.danger {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: #000000;
+    animation: displayNone;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+} 
+
+@keyframes displayNone {
+    0% {
+        display: flex;
+    }
+    90% {
+        display: flex;
+        opacity:1;
+    }
+    99%{
+        display: flex;
+        opacity: 0;
+    }
+    100%{
+        display: none;
+        opacity: 0;
+    }
+}
+
+/* bekijk vakantie pagina */
+/* gemaakt door anke */
+.informatie-verblijf {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px;
+}
+
+.naam-verblijf {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+.plaatje-reacties-verblijf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+
+}
+
+.reacties-verblijf {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-size: 18px;
+}
+
+.review1 {
+    height: auto;
+    background-color: #FFD803;
+    color: #000000;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.review2 {
+    height: auto;
+    background-color: #FFD803;
+    color: #000000;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.review3 {
+    height: auto;
+    background-color: #FFD803;
+    color: #000000;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.informatie-en-prijs-verblijf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.alle-informatie-verblijf {
+    padding: 25px;
+    color: #FFFFFF;
+    width: 500px;
+    height: 100%;
+    background-color: #272343;
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+.prijs-per-persoon-verblijf {
+    color: #000000;
+    width: 250px;
+    height: 100%;
+    background-color: #FFD803;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 3px;
+}
+
+.faciliteiten-lijst {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.boeken-knop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.boeken-verblijf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    background-color: #272343;
+    color: #FFFFFF;
+    margin: 95px;
+    font-size: 25px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* dashboard beheer pagina */
+/* gemaakt door Anke */
+.background-tabel {
+    width: auto;
+    height: auto;
+    background-color: #272343;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+.hoofd-tekst-tabel {
+    width: 200px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.results-voor-beheer {
+    height: 50px;
+    background-color: #FFD803;
+    font-size: 25px;
+}
+
+/* dashboard klanten */
+/* gemaakt door anke */
+.background-tabel-klanten {
+    width: auto;
+    height: auto;
+    background-color: #FFD803;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.hoofd-tekst-tabel-userdata{
+    color: #000000;
 }
