@@ -1,20 +1,20 @@
 <?php
     include "../include/conn.php";
-    $sql = "SELECT * 
+    $sql = "SELECT *
     FROM users
     INNER JOIN userdata ON users.id = userdata.users_id ";
     $stmt = $connection->prepare($sql);
     $stmt->execute();
     $result_users = $stmt->fetchAll();
-
-    $sql = "SELECT * 
+ 
+    $sql = "SELECT *
     FROM verblijven";
     $stmt = $connection->prepare($sql);
     $stmt->execute();
     $result_verblijven = $stmt->fetchAll();
 ?>
-
-
+ 
+ 
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -41,12 +41,12 @@
                         <th>Achternaam</th>
                         <th>Details</th>
                     </tr>
-
+ 
                     <?php foreach($result_users as $row): ?>
                         <tr class='results-voor-beheer'>
                             <td> <?php echo $row['id']; ?> </td>
                             <td> <?php echo $row['email']; ?> </td>
-                            <td> <?php echo $row['rol']; ?> </td> 
+                            <td> <?php echo $row['rol']; ?> </td>
                             <td> <?php echo $row['voornaam']; ?> </td>
                             <td> <?php echo $row['achternaam']; ?> </td>
                             <td> <a href='dashboard-beheer-userdetails.php?id=<?php echo $row['id']; ?>'>details</a></td>
@@ -64,7 +64,7 @@
                         <th>Land en plaats verblijf</th>
                         <th>Beoordeling</th>
                     </tr>
-
+ 
                     <?php foreach($result_verblijven as $column): ?>
                         <tr class='results-voor-beheer'>
                             <td> <?php echo $column['id']; ?> </td>
@@ -78,8 +78,8 @@
                 </table>
             </div>
         </main>
-
-        
+ 
+       
             <?php
                 include "../include/footer.php"
             ?>

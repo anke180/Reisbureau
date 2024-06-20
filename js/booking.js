@@ -14,12 +14,10 @@ const setAmountOfGuests = () => {
         adresInput.type = 'text';
         adresInput.placeholder = 'Adres + huisnummer' + i;
         adresInput.name = 'adres' + i;
-
         const achternaamInput = document.createElement('input');
         achternaamInput.type = 'text';
         achternaamInput.placeholder = 'Achternaam ' + i;
         achternaamInput.name = 'achternaam' + i;
-
         const emailInput = document.createElement('input');
         emailInput.type = 'email';
         emailInput.placeholder = 'Email ' + i;
