@@ -57,7 +57,7 @@
                         echo "<div class='inf4'>";
                             echo "<div class='beoordeling-row'>";
                                 echo $row  ['naam']."<br>\n";
-                                echo $row ['land-van-verblijf']."<br>\n";
+                                echo $row ['land_van_verblijf']."<br>\n";
                                 echo $row ['beoordeling']."<br>\n";
                             echo "</div>";
                              

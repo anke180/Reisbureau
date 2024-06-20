@@ -32,6 +32,8 @@
                         <th>Verblijven ID</th>
                         <th>Dossier ID</th>
                         <th>Bankgegevens</th>
+                        <th>Update</th>
+                        <th>Delete</th>
                     </tr>
 
                     <?php foreach($result_boeking as $row): ?>
@@ -39,6 +41,9 @@
                             <td> <?php echo $row['verblijven_id']; ?> </td>
                             <td> <?php echo $row['dossier_id']; ?> </td>
                             <td> <?php echo $row['bankgegevens']; ?> </td>
+                            <td> <?php echo '<a href="dashboard-beheer-boeking-update.php?id='. $row['id'] . '">Update</a>'; ?></td>
+                            <td> <?php echo '<a href="dashboard-beheer-boeking-delete.php?id='. $userid . '">Delete</a>'; ?></td>
+
                         </tr>
                     <?php endforeach; ?>
                 </table>

@@ -63,16 +63,18 @@
                         <th>Prijs</th>
                         <th>Land en plaats verblijf</th>
                         <th>Beoordeling</th>
+                        <th>Details</th>
                     </tr>
  
                     <?php foreach($result_verblijven as $column): ?>
                         <tr class='results-voor-beheer'>
                             <td> <?php echo $column['id']; ?> </td>
-                            <td> <?php echo $column['type-verblijf']; ?> </td>
+                            <td> <?php echo $column['type_verblijf']; ?> </td>
                             <td> <?php echo $column['naam']; ?> </td>
                             <td> <?php echo $column['prijs']; ?> </td>
-                            <td> <?php echo $column['land-van-verblijf']; ?> </td>
+                            <td> <?php echo $column['land_van_verblijf']; ?> </td>
                             <td> <?php echo $column['beoordeling']; ?> </td>
+                            <td> <a href='dashboard-beheer-verblijvendetails.php?id=<?php echo $column['id']; ?>'>details</a></td>  
                         </tr>
                     <?php endforeach; ?>
                 </table>

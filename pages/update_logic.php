@@ -2,7 +2,7 @@
     include '../include/conn.php';
     $row = [
         'id' => $_POST['id'],
-        'voornaam' => $_POST['voornaam'],
+        'voornaam' => $_POST['voornaam'], 
         'achternaam' => $_POST['achternaam'],
         'telefoonnummer' => $_POST['telefoonnummer'],
         'geboorte_datum' => $_POST['geboorte_datum'],

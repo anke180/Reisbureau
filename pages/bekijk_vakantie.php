@@ -25,7 +25,7 @@
                             echo "<h1>";
                             echo $row ['naam']."<br>\n";
                             echo "</h1>";
-                            echo $row ['land-van-verblijf']."<br>\n";
+                            echo $row ['land_van_verblijf']."<br>\n";
                         echo "</div>"; 
                         echo "<div class='plaatje-reacties-verblijf'>";
                             echo "<div class='plaatje-verblijf'>";
