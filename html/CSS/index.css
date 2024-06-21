@@ -169,10 +169,10 @@ body{
     margin-top: 20px;
 }
 .b4{
-    height: 700px;
+    height: auto;
     width: 100%;
     background-image: url(/images/pexels-photo-457882.jpeg);
-    background-size: 1536px;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
