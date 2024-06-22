@@ -4,6 +4,9 @@ echo $_POST['aantal_gasten'];
 var_dump($_POST);
 
 
+// var_dump($_POST);
+ 
+ 
 $sql = "INSERT INTO `hoofdboeker` ( `voornaam`, `achternaam`, `geboortedatum`, `email`, `geslacht`, `bankgegevens`, `adres`) VALUES (:voornaam, :achternaam, :geboortedatum, :email, :geslacht, :bankgegevens, :adres)";
     $stmt = $connection->prepare($sql);
     $stmt->execute([
@@ -15,6 +18,9 @@ $sql = "INSERT INTO `hoofdboeker` ( `voornaam`, `achternaam`, `geboortedatum`, `
         'bankgegevens' => $_POST['bankgegevens0'],
         'adres' => $_POST['adres0']
     ]);
+ 
+ 
+ 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,6 +32,7 @@ $sql = "INSERT INTO `hoofdboeker` ( `voornaam`, `achternaam`, `geboortedatum`, `
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@142&family=Playwrite+SK:wght@100..400&family=Playwrite+US+Trad&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">    <title>Reisbureau</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Reisbureau</title>
 </head>
 <body>

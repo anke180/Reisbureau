@@ -53,13 +53,16 @@
             <div class="inf3">
                 <h3>Onze top verblijven</h3>
                 <?php
-                    $stmt = $connection->query("SELECT * FROM verblijven");
-                    while ($row = $stmt->fetch()){
+                    $stmt = $connection->query("SELECT * FROM verblijven LIMIT 4 ");
+                    while ($row = $stmt->fetch()){ 
                         echo "<div class='inf4'>";
                             echo "<div class='beoordeling-row'>";
                                 echo $row  ['naam']."<br>\n";
                                 echo $row ['land_van_verblijf']."<br>\n";
                                 echo $row ['beoordeling']."<br>\n";
+                                echo "<div class='bekijk-vakantie-klein'>";
+                                echo "<a class='tekst-bekijk-vakantie' href='../pages/bekijk_vakantie.php?id=" . $row['id'] . "'>Bekijk vakantie</a>";
+                            echo "</div>";
                             echo "</div>";
                              
                         echo "</div>";

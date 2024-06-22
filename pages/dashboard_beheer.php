@@ -1,4 +1,9 @@
 <?php
+    session_start();
+    if(!$_SESSION['id']){
+        header('../index.php');
+    }
+    
     include "../include/conn.php";
     $sql = "SELECT *
     FROM users

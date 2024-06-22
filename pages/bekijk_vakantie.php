@@ -18,8 +18,11 @@
         </header>
         <main>
             <?php
+            // sql sum -> tel kolom op waar id overeenkomt 
+
+            // $stmt = $connection->prepare(" SELECT COUNT (rating) FROM AppartementMorenaRating"  ) 
                 $_GET['id'];
-                $stmt = $connection->prepare("SELECT * FROM verblijven WHERE id = :id ");
+                $stmt = $connection->prepare("SELECT * FROM verblijven WHERE id = :id "); ;
                 $stmt->execute(['id' => $_GET['id']]);
                 while ($row = $stmt->fetch()){ 
                     echo "<div class='informatie-verblijf'>";
@@ -33,6 +36,8 @@
                             echo "<div class='plaatje-verblijf'>";
                                 echo "<img src=" . $row ['image'] . " width='750px' height='400px'><br>\n";
                             echo "</div>";
+                            
+                   
                             echo "<div class='reacties-verblijf'>";
                                 echo "<div class='review1'>";
                                     echo "<p>Review 1:</p>";
@@ -63,6 +68,20 @@
                                 echo ($row ['internet'])? 'Internet' ."<br>\n" : '';
                                 echo ($row ['restaurant']) ? 'Restaurant' ."<br>\n" : '';
                             echo "</div>"; 
+
+                            $stmt = $connection->prepare("SELECT COUNT(rating) AS rating_count FROM `AppartementMorenaRating` WHERE rating = 1");
+    
+                            $stmt->execute();
+
+                            $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+                            echo "<a class='rating-knop' href='rate_vakantie.php?id=" . $row['id'] . "'>Like</a>";
+                            echo "<div class='balk-likes'>";
+                                echo "De likes die dit verblijf heeft ontvangen zijn: " . $result['rating_count'];
+                            echo "</div>";
+                            // echo $row['rating'];  
+                          
+
                             echo "<div class='prijs-per-persoon-verblijf'>";
                                 echo '<div class="faciliteiten-lijst">';
                                     echo "<a class='tekst'>De prijs per persoon is: €" . ($row ['prijs']) ."</a>";
