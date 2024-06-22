@@ -1074,7 +1074,7 @@ body{
 
 .row70{
     height: auto;
-    width: 70%;
+    width: 85%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1082,8 +1082,9 @@ body{
 }
 
 .vakantie-balk{
-    height: 300px;
-    width: 900px;
+    height: auto;
+    width: 100%;
+    padding: 25px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -1095,8 +1096,8 @@ body{
 }
 
 .vakantie-blok-wit{
-    height: 240px;
-    width: 260px;
+    height: auto;
+    width: 350px;
     background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
@@ -1107,8 +1108,8 @@ body{
 }
 
 .vakantie-blok-blauw{
-    height: 240px;
-    width: 260px;
+    height: auto;
+    width: 360px;
     background-color: #E3F6F5;
     display: flex;
     flex-wrap: wrap;
@@ -1232,8 +1233,8 @@ body{
 }
 
 .img-vakantie{
-    height: 240px;
-    width: 260px;
+    height: 360px;
+    width: 360px;
 } 
 
 
@@ -1245,24 +1246,31 @@ body{
 }
 
 .vakantie-balk{
-    height: 300px;
-    width: 750px;
+    height: auto;
+    width: 350px;
+    flex-direction: column;
  
 }
 
 .vakantie-blok-wit{
-    height: 240px;
-    width: 225px;
+    height: 250px;
+    width: 250px;
+}
+
+.logo-blok{
+    width: 20%;
 }
 
 .img-vakantie{
-    height: 240px;
-    width: 225px;
+    height: 250px;
+    width: 255px;
 }
 
 .vakantie-blok-blauw{
-    height: 240px;
-    width: 225px;
+    height: auto;
+    margin-top: 15px;
+    width: 255px;
+    padding: 5px;
 }
 
 }
@@ -1299,7 +1307,7 @@ body{
 }
 
 .vakantie-balk{
-    height: 750px;
+    height: auto;
     width: 350px;
     flex-direction: column;
 }
@@ -1309,18 +1317,18 @@ body{
 }
 
 .vakantie-blok-wit{
-    height: 220px;
-    width: 250px;
+    height: auto;
+    width: 300px;
 }
 
 .vakantie-blok-blauw{
-    height: 220px;
-    width: 250px;
+    height: auto;
+    width: 300px;
 }
 
 .img-vakantie{
-    height: 220px;
-    width: 250px;
+    height: auto;
+    width: 300px;
 }
 
 

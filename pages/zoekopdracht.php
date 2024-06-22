@@ -83,16 +83,18 @@
                                     echo "<div class='vakantie-blok-blauw'>";
                                         echo "<div class='een-vakantie-informatie'>";
                                             echo "<div class='balk-verblijven'>";
-                                                echo $row ['naam']."<br>\n";
+                                                echo $row ['naam'] .' heeft: ' ."<br>\n";
+                                                
                                             echo "</div>";
  
                                             echo "<div class='balk-beordeling'>";
                                                 echo $row ['beoordeling']."<br>\n";
+                                               
                                             echo "</div>";
  
-                                            echo "<div class='balk-tekst-hotel'>";
-                                                echo"<a class='tekst-hotel'>In dit verblijf hebben we een: </a>";
-                                            echo "</div>";
+                                            // echo "<div class='balk-tekst-hotel'>";
+                                            //     echo"<a class='tekst-hotel'>In dit verblijf hebben we een: </a>";
+                                            // echo "</div>";
  
                                             echo "<div class='balk-verblijven'>";                                              
  
