@@ -32,9 +32,9 @@
     <div class="main">
         <div class="b2">
             <div class="inf2">
-                <h2>Waarom kies je voor .....?</h2>
+                <h2>Waarom ons kiezen?</h2>
                 <div class="inf">
-                <h3 id="text">Unieke voordelen en aanbiedingen</h3>
+                <h3 id="text">Unieke voordelen</h3>
                 </div>
                 <div class="inf">
                 <h3 id="text">Betrouwbaarheid</h3>

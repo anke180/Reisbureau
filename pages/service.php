@@ -44,16 +44,17 @@
                 </div>
  
                 <div class="mailing">
-                    <h2 class="tekst-blok-service">E-mails verzenden naar onze experts:</h2>
-                       <div class="tekst-service-info">
+                <div class="tekst-service-info">
+                    <h3 class="tekst-blok-service">E-mails verzenden naar ons:</h2>
+                       
                             <h3>Naam: Ruveyda Bal</h3>
                             <h3>E-mail: 1197794@student.roc-nijmegen.nl</h3>
-                        </div>
-                        <div class="tekst-service-info">
+                        <!-- </div> -->
+                        <!-- <div class="tekst-service-info"> -->
                             <h3>Naam: Anke van Dommelen</h3>
                             <h3>E-mail: 1208834@student.roc-nijmegen.nl</h3>
-                        </div>
-                        <div class="tekst-service-info">
+                        <!-- </div> -->
+                        <!-- <div class="tekst-service-info"> -->
                             <h3>Naam: Rens Peters</h3>
                             <h3>E-mail: 1195839@student.roc-nijmegen.nl</h3>
                         </div>

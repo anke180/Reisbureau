@@ -11,7 +11,7 @@
 
 </head>
 <body>
-    <div class="head">
+    <!-- <div class="head"> -->
         <div class="header">
             <div class="logo"></div>
             <a href="../index.php" class="but1">Home</a>
@@ -19,7 +19,7 @@
             <a href="" class="but1">Klantenservice</a>
             <a href="login.php" class="but1">Login</a>
         </div>
-        <div class="b1">
+        <div class="background-picture">
             <div class="blok-inlog">
                 <form action='register_logic.php' name='register_logic' method='POST' >
                     <div class="login-form">

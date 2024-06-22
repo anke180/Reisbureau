@@ -1,4 +1,3 @@
-[11:20] Bal,Ruveyda
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -132,7 +131,7 @@
                                                     echo''."<br>\n";
                                                 }
  
-                                                if($row['sport-plaats'] == 1){
+                                                if($row['sport_plaats'] == 1){
                                                     echo'sport-plaats' ."<br>\n";
                                                 }
                                                 else{

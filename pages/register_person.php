@@ -1,7 +1,7 @@
 <?php
 include '../include/conn.php';
 echo $_POST['aantal_gasten'];
-var_dump($_POST);
+// var_dump($_POST);
 
 
 // var_dump($_POST);

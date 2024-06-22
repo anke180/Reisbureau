@@ -61,7 +61,7 @@
                                 echo ($row ['strand']) ? 'Strand' ."<br>\n" : '';
                                 echo ($row ['glijbanen']) ? 'Glijbanen' ."<br>\n" : '';
                                 echo ($row ['animatie_kinderen']) ? 'animatie_kinderen' ."<br>\n" : '';
-                                echo ($row ['adult_only']) ? 'adult_only' ."<br>\n" : '';
+                                echo ($row ['adult-only']) ? 'adult_only' ."<br>\n" : '';
                                 echo ($row ['spa']) ? 'Spa' ."<br>\n" : '';
                                 echo ($row ['sport_plaats']) ? 'sport_plaats' ."<br>\n" : '';
                                 echo ($row ['bars']) ? 'Bars' ."<br>\n" : '';
