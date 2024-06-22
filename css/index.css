@@ -1446,6 +1446,10 @@ footer p {
     border-radius: 3px;
 }
 
+.tekst-filter{
+    color: #FFFFFF;
+}
+
 .hoofd-tekst {
     font-size: 40px;
 }
