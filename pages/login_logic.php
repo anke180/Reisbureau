@@ -18,6 +18,7 @@
 
     if($user){
         if($user["rol"] == 1){
+            $_SESSION['id'] = $user['id'];
             header("Location: dashboard_beheer.php");
         } else {
             header("Location: ../index.php");
