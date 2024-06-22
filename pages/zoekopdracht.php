@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@142&family=Playwrite+SK:wght@100..400&family=Playwrite+US+Trad&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">    <title>Reisbureau</title>
     <title>Reisbueau Bestemming pagina</title>
     <link rel="stylesheet" href="../css/index.css">
 </head>
@@ -41,7 +43,7 @@
                             <label class='tekst-filter'>spa</label>
                             <input type='checkbox' id='isSpa'>
  
-                            <label class='tekst-filter'>sport-plaats</label>
+                            <label class='tekst-filter'>sport_plaats</label>
                             <input type='checkbox' id='isSportPlaats'>
  
                             <label class='tekst-filter'>bars</label>
@@ -129,8 +131,8 @@
                                                     echo''."<br>\n";
                                                 }
  
-                                                if($row['sport-plaats'] == 1){
-                                                    echo'sport-plaats' ."<br>\n";
+                                                if($row['sport_plaats'] == 1){
+                                                    echo'sport_plaats' ."<br>\n";
                                                 }
                                                 else{
                                                     echo''."<br>\n";

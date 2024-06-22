@@ -6,8 +6,8 @@
         'dossier_id' => $_POST['dossier_id'],
         'bankgegevens' => $_POST['bankgegevens'],
     ];
-    $sql = "UPDATE boeken SET type_verblijf=:type_verblijf, land_van_verblijf=:land_van_verblijf, naam=:naam, 
-    prijs=:prijs, beoordeling=:beoordeling
+    $sql = "UPDATE boeken SET verblijven_id=:verblijven_id, dossier_id=:dossier_id,
+    bankgegevens=:bankgegevens
     WHERE id=:id";
     $stmt = $connection->prepare($sql);
     $stmt ->execute($row);

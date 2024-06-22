@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reisbueau bekijk vakantie</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@142&family=Playwrite+SK:wght@100..400&family=Playwrite+US+Trad&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">    <title>Reisbureau</title>
         <link rel="stylesheet" href="../css/index.css">
     </head>
     <body>
@@ -53,10 +55,10 @@
                                 echo ($row ['wasmachine']) ? 'Wasmachine' ."<br>\n" : '';
                                 echo ($row ['strand']) ? 'Strand' ."<br>\n" : '';
                                 echo ($row ['glijbanen']) ? 'Glijbanen' ."<br>\n" : '';
-                                echo ($row ['animatie-kinderen']) ? 'Animatie-kinderen' ."<br>\n" : '';
-                                echo ($row ['adult-only']) ? 'Adult-only' ."<br>\n" : '';
+                                echo ($row ['animatie_kinderen']) ? 'animatie_kinderen' ."<br>\n" : '';
+                                echo ($row ['adult_only']) ? 'adult_only' ."<br>\n" : '';
                                 echo ($row ['spa']) ? 'Spa' ."<br>\n" : '';
-                                echo ($row ['sport-plaats']) ? 'Sport-plaats' ."<br>\n" : '';
+                                echo ($row ['sport_plaats']) ? 'sport_plaats' ."<br>\n" : '';
                                 echo ($row ['bars']) ? 'Bars' ."<br>\n" : '';
                                 echo ($row ['internet'])? 'Internet' ."<br>\n" : '';
                                 echo ($row ['restaurant']) ? 'Restaurant' ."<br>\n" : '';
@@ -64,10 +66,10 @@
                             echo "<div class='prijs-per-persoon-verblijf'>";
                                 echo '<div class="faciliteiten-lijst">';
                                     echo "<a class='tekst'>De prijs per persoon is: €" . ($row ['prijs']) ."</a>";
-                                    echo ($row ['all-inclusive']) ? 'All-inclusive' : '';
-                                    echo ($row ['half-pension']) ? 'Half-pension' : '';
-                                    echo ($row ['vol-pension']) ? 'Vol-pension' : '';
-                                    echo "<a class='tekst'>De hoeveelheid slaapplekken in deze kamer is: " . ($row ['hoeveelheid-personen']) ."</a>";
+                                    echo ($row ['all_inclusive']) ? 'all_inclusive' : '';
+                                    echo ($row ['half_pension']) ? 'half_pension' : '';
+                                    echo ($row ['vol_pension']) ? 'vol_pension' : '';
+                                    echo "<a class='tekst'>De hoeveelheid slaapplekken in deze kamer is: " . ($row ['hoeveelheid_personen']) ."</a>";
                                 echo '</div>';
                             echo "</div>";
                         echo "</div>";
