@@ -1,13 +1,13 @@
 <?php
     include '../include/conn.php';
-    $userid = $_GET['id'];
+    $verblijfid = $_GET['id'];
 
     $sql = "SELECT * 
-    FROM userdata
-    WHERE users_id = $userid";
+    FROM verblijven
+    WHERE id = $verblijfid";
     $stmt = $connection->prepare($sql);
     $stmt->execute();
-    $result_users = $stmt->fetchAll();
+    $result_verblijf = $stmt->fetchAll();
 ?>
 
 <!DOCTYPE html>
@@ -32,31 +32,25 @@
                 <table id=user-results>
                     <tr class='hoofd-tekst-tabel-userdata'>
                         <th>ID </th>
-                        <th>Voornaam</th>
-                        <th>Achternaam</th>
-                        <th>Telefoonnummer</th>
-                        <th>geboorte_datum</th>
-                        <th>Nationaliteit</th>
-                        <th>Huisnummer</th>
-                        <th>Postcode</th>
-                        <th>Boeking details</th>
+                        <th>Type verblijf</th>
+                        <th>Land van verblijf</th>
+                        <th>Naam</th>
+                        <th>Prijs</th>
+                        <th>Beoordeling</th>
                         <th>Update</th>
                         <th>Delete</th>
                     </tr>
 
-                    <?php foreach($result_users as $row): ?>
+                    <?php foreach($result_verblijf as $row): ?>
                         <tr class='results-voor-beheer'>
                             <td> <?php echo $row['id']; ?> </td>
-                            <td> <?php echo $row['voornaam']; ?> </td>
-                            <td> <?php echo $row['achternaam']; ?> </td>
-                            <td> <?php echo $row['telefoonnummer']; ?> </td>
-                            <td> <?php echo $row['geboorte_datum']; ?> </td>
-                            <td> <?php echo $row['nationaliteit']; ?> </td>
-                            <td> <?php echo $row['huisnummer']; ?> </td>
-                            <td> <?php echo $row['postcode']; ?> </td>
-                            <td> <a href='dashboard-beheer-boeking.php?id=<?php echo $row['id']; ?>'>Booking details</a></td>
-                            <td> <?php echo '<a href="dashboard-beheer-userdata-update.php?id='. $row['id'] . '">Update</a>'; ?></td>
-                            <td> <?php echo '<a href="dashboard-beheer-userdata-delete.php?id='. $userid . '">Delete</a>'; ?></td>
+                            <td> <?php echo $row['type_verblijf']; ?> </td>
+                            <td> <?php echo $row['land_van_verblijf']; ?> </td>
+                            <td> <?php echo $row['naam']; ?> </td>
+                            <td> <?php echo $row['prijs']; ?> </td>
+                            <td> <?php echo $row['beoordeling']; ?> </td>
+                            <td> <?php echo '<a href="dashboard-beheer-verblijf-update.php?id='. $row['id'] . '">Update</a>'; ?></td>
+                            <td> <?php echo '<a href="dashboard-beheer-verblijf-delete.php?id='. $verblijfid . '">Delete</a>'; ?></td>
                         </tr>
                     <?php endforeach; ?>
                 </table>

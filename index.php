@@ -1,19 +1,29 @@
+<?php
+    session_start();
+    if(isset($_SESSION['errormessage'])){
+        echo '<div class="danger">';
+            echo $_SESSION['errormessage'];
+        echo '</div>';
+        unset($_SESSION['errormessage']);
+    }
+?>
+ 
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<<<< Temporary merge branch 1
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <title>Reisbureau</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@142&family=Playwrite+SK:wght@100..400&family=Playwrite+US+Trad&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">    <title>Reisbureau</title>
 </head>
 <body>
 <?php
         include "include/nav.php";
         include "include/conn.php";
-?>   
-
+?>  
+ 
        
 <div id='margin-background' class="achtergrond">   </div>
        
@@ -40,8 +50,23 @@
                 <h3 id="text">Extra Diensten</h3>
                 </div>
             </div>
-            <div class="none">
+            <div class="inf3">
+                <h3>Onze top verblijven</h3>
+                <?php
+                    $stmt = $connection->query("SELECT * FROM verblijven");
+                    while ($row = $stmt->fetch()){
+                        echo "<div class='inf4'>";
+                            echo "<div class='beoordeling-row'>";
+                                echo $row  ['naam']."<br>\n";
+                                echo $row ['land_van_verblijf']."<br>\n";
+                                echo $row ['beoordeling']."<br>\n";
+                            echo "</div>";
+                             
+                        echo "</div>";
+                    }
+                ?>
             </div>
+ 
         </div>
     </div>
         <div class="balk-leeg"></div>
@@ -49,27 +74,5 @@
             <a href="pages/algemene-voorwaarden.php" >Algemene voorwaarden</a>
             <a href="pages/privacy-voorwaarden.php" >Privacy voorwaarden</a>
         </div>
-
 </body>
-=========
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <header>
-            <?php
-                include 'include/nav.php'
-            ?>
-        </header>
-        <main>
-
-        </main>
-        <footer>
-
-        </footer>
-    </body>
->>>>>>>>> Temporary merge branch 2
 </html>

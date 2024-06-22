@@ -22,7 +22,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reisbureau dashboard beheer pagina</title>
         <link rel="stylesheet" href="../css/index.css">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@142&family=Playwrite+SK:wght@100..400&family=Playwrite+US+Trad&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">    <title>Reisbureau</title>
     </head>
     <body>
         <header>
@@ -63,19 +65,22 @@
                         <th>Prijs</th>
                         <th>Land en plaats verblijf</th>
                         <th>Beoordeling</th>
+                        <th>Details</th>
                     </tr>
  
                     <?php foreach($result_verblijven as $column): ?>
                         <tr class='results-voor-beheer'>
                             <td> <?php echo $column['id']; ?> </td>
-                            <td> <?php echo $column['type-verblijf']; ?> </td>
+                            <td> <?php echo $column['type_verblijf']; ?> </td>
                             <td> <?php echo $column['naam']; ?> </td>
                             <td> <?php echo $column['prijs']; ?> </td>
-                            <td> <?php echo $column['land-van-verblijf']; ?> </td>
+                            <td> <?php echo $column['land_van_verblijf']; ?> </td>
                             <td> <?php echo $column['beoordeling']; ?> </td>
+                            <td> <a href='dashboard-beheer-verblijvendetails.php?id=<?php echo $column['id']; ?>'>details</a></td>  
                         </tr>
                     <?php endforeach; ?>
                 </table>
+                <a href='dashboard-beheer-create-verblijf.php'>Nieuwe verblijf aanmaken</a>
             </div>
         </main>
  

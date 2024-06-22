@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
     <title>Reisbureau</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@142&family=Playwrite+SK:wght@100..400&family=Playwrite+US+Trad&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">    <title>Reisbureau</title>
+
 </head>
 <body>
     <?php
@@ -15,14 +18,14 @@
        
             <div id='margin-background' class="achtergrond"></div>
      
-
+ 
             </div>
             <div class="b3">
                 <div class="mailing">
                     <h2 class="tekst-blok-service">Klachten, en nu?</h2>
                     <h3 class="tekst-blok-service">Neem gerust contact op met een van onze collega’s die kunnen je verder helpen met uw problemen/vragen.</h3>
                 </div>
-
+ 
                 <div class="socmed">
                     <div class="tekst-blok-service">
                         <div class="tekst-service-info">
@@ -39,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-
+ 
                 <div class="mailing">
                     <h2 class="tekst-blok-service">E-mails verzenden naar onze experts:</h2>
                        <div class="tekst-service-info">
@@ -73,7 +76,7 @@
                 </div>
             </div>
         </div>
-
+ 
         <div class="container-service-email">
           <!-- <form action='service-verstuur-mail.php' name='service-verstuur-mail' method='POST'> -->
             <div class="blok-email">
@@ -85,7 +88,7 @@
                         <div class="blok-klein-mail">
                             <div class="balk-groot-mail">
                                 <div class="balk-mail">
-                                <input class='mail'  type='text' name='email' placeholder='email'> 
+                                <input class='mail'  type='text' name='email' placeholder='email'>
                                 </div>
                             </div>
                             <div class="balk-groot-mail">
@@ -96,17 +99,17 @@
                         </div>
                         <div class="blok-klein-mail">
                             <div class="blok-tekst-mail">
-                                <input class='tekst' type='text' name='tekst' placeholder='uw vraag.....'> 
+                                <input class='tekst' type='text' name='tekst' placeholder='uw vraag.....'>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-      
+     
         <?php
             include "../include/footer.php"
         ?>
-
+ 
 </body>
 </html>

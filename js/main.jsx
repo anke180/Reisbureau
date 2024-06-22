@@ -72,7 +72,7 @@ const filter = () => {
         }
 
         console.log(product.childNodes[1].textContent);
-        if (product.childNodes[1].textContent.includes('sport-plaats') && isSportPlaats == true){
+        if (product.childNodes[1].textContent.includes('sport_plaats') && isSportPlaats == true){
             newList.push(product);
         }
     
