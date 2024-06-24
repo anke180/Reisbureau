@@ -154,7 +154,7 @@ body{
     margin-top: 20px;
 }
 .b4{
-    height: 700px;
+    height: auto;
     width: 100%;
     background-image: url(/images/pexels-photo-457882.jpeg);
     background-size: 1536px;
@@ -258,7 +258,7 @@ body{
 .booking{
     background-color: #2723435e;
     background-image: linear-gradient(#272343ba, hwb(248 14% 74% / 0));
-    height: 400px;
+    height: auto;
     width: 45%;
     border-radius: 13px;
     color: white;
@@ -282,12 +282,22 @@ body{
 }
 .form{
     width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 10px;
     justify-content: center;
 }
+
+.form-container{
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 #mid{
     display: flex;
     justify-content: center;
@@ -1446,6 +1456,10 @@ footer p {
     border-radius: 3px;
 }
 
+.tekst-filter{
+    color: #FFFFFF;
+}
+
 .hoofd-tekst {
     font-size: 40px;
 }
@@ -1813,26 +1827,6 @@ table, th, td {
     overflow: hidden;
     cursor: pointer;
     border-radius: 15px;
-}
-
-.b4{
-    height: 700px;
-    width: 100%;
-    background-image: url(/images/pexels-photo-457882.jpeg);
-    background-size: 1536px;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.booking{
-    background-color: #2723435e;
-    background-image: linear-gradient(#272343ba, hwb(248 14% 74% / 0));
-    height: 400px;
-    width: 45%;
-    border-radius: 13px;
-    color: white;
 }
 
 /* create pagina */
