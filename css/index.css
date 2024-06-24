@@ -80,7 +80,7 @@ body{
     border-radius: 13px;
     background-color: #e3e3e3;
     color: #272343;
-    border:#272343 solid;
+    border:#272343 solid; 
     height: 50px;
 }
 .but5{
@@ -275,18 +275,26 @@ body{
     border-style: solid;
     border-color: black;
     color: #272343;
-    height: 50px;
+    height: auto;
     width: auto;
-    border-radius: 13px;
+    border-radius: 4px;
     background-color: #e3e3e3;
 }
 .form{
     width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 10px;
     justify-content: center;
+}
+.form-container{
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 #mid{
     display: flex;
@@ -1795,6 +1803,7 @@ table, th, td {
 }
 
 .form{
+    height: auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -1820,7 +1829,7 @@ table, th, td {
 }
 
 .b4{
-    height: 700px;
+    height: auto;
     width: 100%;
     background-image: url(/images/pexels-photo-457882.jpeg);
     background-size: 1536px;
@@ -1833,7 +1842,7 @@ table, th, td {
 .booking{
     background-color: #2723435e;
     background-image: linear-gradient(#272343ba, hwb(248 14% 74% / 0));
-    height: 400px;
+    height: auto;
     width: 45%;
     border-radius: 13px;
     color: white;
