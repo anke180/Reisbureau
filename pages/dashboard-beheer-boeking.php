@@ -44,7 +44,7 @@
                             <td> <?php echo $row['dossier_id']; ?> </td>
                             <td> <?php echo $row['bankgegevens']; ?> </td>
                             <td> <?php echo '<a href="dashboard-beheer-boeking-update.php?id='. $row['id'] . '">Update</a>'; ?></td>
-                            <td> <?php echo '<a href="dashboard-beheer-boeking-delete.php?id='. $boekingid . '">Delete</a>'; ?></td>
+                            <td> <?php echo '<a href="dashboard-beheer-boeking-delete.php?id='. $boekingid  . '">Delete</a>'; ?></td>
 
                         </tr>
                     <?php endforeach; ?>

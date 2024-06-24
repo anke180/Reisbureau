@@ -79,6 +79,10 @@
                         <label class="tekst">Hoeveelheid personen van verblijf:</label>
                         <input type="text" name="hoeveelheid_personen" placeholder="hoeveelheid_personen" required>
                     </div>
+                    <div class="hoeveelheid-personen-van-verblijf">
+                        <label class="tekst">Aantal slaapplekken van verblijf:</label>
+                        <input type="text" name="aantalslaapplekken" placeholder="aantalslaapplekken" required>
+                    </div>
                     <div class="beoordeling-van-verblijf">
                         <label class="tekst">Beoordeling van verblijf:</label>
                         <input type="text" name="beoordeling" placeholder="beoordeling" required>
@@ -86,7 +90,7 @@
                     <div class="vertrekdatum-van-verblijf">
                         <label class="tekst">Vertrek datum van verblijf:</label>
                         <input type="date" name="vertrek_datum" placeholder="vertrek_datum" required>
-                    </div>                 
+                    </div>                
                     <div class="submit">
                         <input type="submit" value="submit">
                     </div>
