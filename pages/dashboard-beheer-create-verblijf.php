@@ -43,36 +43,36 @@
                         <input type="text" name="image" placeholder="image" required>
                     </div>
                     <div class="checkbox">
-                        <label class='tekst-filter'>zwembad</label>
+                        <label class='tekst-filter2'>zwembad</label>
                         <input type='checkbox' id='isZwembad'>  
                         <br>  
-                        <label class='tekst-filter'>airco</label>
+                        <label class='tekst-filter2'>airco</label>
                         <input type='checkbox' id='isAirco'> <br>  
-                        <label class='tekst-filter'>wasmachine</label>
+                        <label class='tekst-filter2'>wasmachine</label>
                         <input type='checkbox' id='isWasmachine'> <br>  
-                        <label class='tekst-filter'>strand</label>
+                        <label class='tekst-filter2'>strand</label>
                         <input type='checkbox' id='isStrand'> <br>  
-                        <label class='tekst-filter'>all-inclusive</label>
+                        <label class='tekst-filter2'>all-inclusive</label>
                         <input type='checkbox' id='isAllInclusive'> <br>  
-                        <label class='tekst-filter'>half-pension</label>
+                        <label class='tekst-filter2'>half-pension</label>
                         <input type='checkbox' id='isHalfPension'> <br>  
-                        <label class='tekst-filter'>vol-pension</label>
+                        <label class='tekst-filter2'>vol-pension</label>
                         <input name=' type='checkbox' id='isVolPension'> <br>  
-                        <label class='tekst-filter'>glijbanen</label>
+                        <label class='tekst-filter2'>glijbanen</label>
                         <input type='checkbox' id='isGlijbanen'> <br>  
-                        <label class='tekst-filter'>animatie-kinderen</label>
+                        <label class='tekst-filter2'>animatie-kinderen</label>
                         <input type='checkbox' id='isAnimatieKinderen'> <br>   
-                        <label class='tekst-filter'>adult-only</label>
+                        <label class='tekst-filter2'>adult-only</label>
                         <input type='checkbox' id='isAdultOnly'> <br>  
-                        <label class='tekst-filter'>spa</label>
+                        <label class='tekst-filter2'>spa</label>
                         <input type='checkbox' id='isSpa'> <br>  
-                        <label class='tekst-filter'>sport-plaats</label>
+                        <label class='tekst-filter2'>sport-plaats</label>
                         <input type='checkbox' id='isSportPlaats'> <br>  
-                        <label class='tekst-filter'>bars</label>
+                        <label class='tekst-filter2'>bars</label>
                         <input type='checkbox' id='isBars'> <br>  
-                        <label class='tekst-filter'>internet</label>
+                        <label class='tekst-filter2'>internet</label>
                         <input type='checkbox' id='isInternet'> <br>  
-                        <label class='tekst-filter'>restaurant</label>
+                        <label class='tekst-filter2'>restaurant</label>
                         <input type='checkbox' id='isRestaurant'>             
                     </div>
                     <div class="hoeveelheid-personen-van-verblijf">

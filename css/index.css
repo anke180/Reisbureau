@@ -305,6 +305,11 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.tekst-filter2{
+    color: #000000;
+}
+
  
 .container-row{
     height: auto;
