@@ -57,7 +57,7 @@
                         <label class='tekst-filter'>half-pension</label>
                         <input type='checkbox' id='isHalfPension'> <br>  
                         <label class='tekst-filter'>vol-pension</label>
-                        <input type='checkbox' id='isVolPension'> <br>  
+                        <input name=' type='checkbox' id='isVolPension'> <br>  
                         <label class='tekst-filter'>glijbanen</label>
                         <input type='checkbox' id='isGlijbanen'> <br>  
                         <label class='tekst-filter'>animatie-kinderen</label>
