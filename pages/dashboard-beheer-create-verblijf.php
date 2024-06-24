@@ -44,40 +44,44 @@
                     </div>
                     <div class="checkbox">
                         <label class='tekst-filter'>zwembad</label>
-                        <input type='checkbox' id='isZwembad'>  
+                        <input name='zwembad' type='checkbox' id='isZwembad'>  
                         <br>  
                         <label class='tekst-filter'>airco</label>
-                        <input type='checkbox' id='isAirco'> <br>  
+                        <input name='airco' type='checkbox' id='isAirco'> <br>  
                         <label class='tekst-filter'>wasmachine</label>
-                        <input type='checkbox' id='isWasmachine'> <br>  
+                        <input name='wasmachine' type='checkbox' id='isWasmachine'> <br>  
                         <label class='tekst-filter'>strand</label>
-                        <input type='checkbox' id='isStrand'> <br>  
+                        <input name='strand' type='checkbox' id='isStrand'> <br>  
                         <label class='tekst-filter'>all-inclusive</label>
-                        <input type='checkbox' id='isAllInclusive'> <br>  
+                        <input name='all_inclusive' type='checkbox' id='isAllInclusive'> <br>  
                         <label class='tekst-filter'>half-pension</label>
-                        <input type='checkbox' id='isHalfPension'> <br>  
+                        <input name='half_pension' type='checkbox' id='isHalfPension'> <br>  
                         <label class='tekst-filter'>vol-pension</label>
-                        <input type='checkbox' id='isVolPension'> <br>  
+                        <input name='vol_pension' type='checkbox' id='isVolPension'> <br>  
                         <label class='tekst-filter'>glijbanen</label>
-                        <input type='checkbox' id='isGlijbanen'> <br>  
+                        <input name='glijbanen' type='checkbox' id='isGlijbanen'> <br>  
                         <label class='tekst-filter'>animatie-kinderen</label>
-                        <input type='checkbox' id='isAnimatieKinderen'> <br>   
+                        <input name='animatie_kinderen' type='checkbox' id='isAnimatieKinderen'> <br>   
                         <label class='tekst-filter'>adult-only</label>
-                        <input type='checkbox' id='isAdultOnly'> <br>  
+                        <input name='adult_only' type='checkbox' id='isAdultOnly'> <br>  
                         <label class='tekst-filter'>spa</label>
-                        <input type='checkbox' id='isSpa'> <br>  
+                        <input name='spa' type='checkbox' id='isSpa'> <br>  
                         <label class='tekst-filter'>sport-plaats</label>
-                        <input type='checkbox' id='isSportPlaats'> <br>  
+                        <input name='sport_plaats' type='checkbox' id='isSportPlaats'> <br>  
                         <label class='tekst-filter'>bars</label>
-                        <input type='checkbox' id='isBars'> <br>  
+                        <input name='bars' type='checkbox' id='isBars'> <br>  
                         <label class='tekst-filter'>internet</label>
-                        <input type='checkbox' id='isInternet'> <br>  
+                        <input name='internet' type='checkbox' id='isInternet'> <br>  
                         <label class='tekst-filter'>restaurant</label>
-                        <input type='checkbox' id='isRestaurant'>             
+                        <input name='restaurant' type='checkbox' id='isRestaurant'>             
                     </div>
                     <div class="hoeveelheid-personen-van-verblijf">
                         <label class="tekst">Hoeveelheid personen van verblijf:</label>
                         <input type="text" name="hoeveelheid_personen" placeholder="hoeveelheid_personen" required>
+                    </div>
+                    <div class="hoeveelheid-personen-van-verblijf">
+                        <label class="tekst">Aantal slaapplekken van verblijf:</label>
+                        <input type="text" name="aantalslaapplekken" placeholder="aantalslaapplekken" required>
                     </div>
                     <div class="beoordeling-van-verblijf">
                         <label class="tekst">Beoordeling van verblijf:</label>
